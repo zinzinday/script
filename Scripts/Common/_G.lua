@@ -1,0 +1,945 @@
+--[[ TABLES ]]--
+package = {
+    preload = {
+        gpc,                                       -- function
+        socket,                                    -- function
+    },
+    loadlib,                                       -- function
+    cpath,                                         -- string
+    loaded = {
+        debug = {
+            getupvalue,                            -- function
+            debug,                                 -- function
+            getregistry,                           -- function
+            getlocal,                              -- function
+            traceback,                             -- function
+            sethook,                               -- function
+            setupvalue,                            -- function
+            getinfo,                               -- function
+            getmetatable,                          -- function
+            gethook,                               -- function
+            setuservalue,                          -- function
+            getuservalue,                          -- function
+            setmetatable,                          -- function
+            upvaluejoin,                           -- function
+            upvalueid,                             -- function
+            setlocal,                              -- function
+        },
+        string = {
+            join,                                  -- function
+            match,                                 -- function
+            gmatch,                                -- function
+            rep,                                   -- function
+            upper,                                 -- function
+            format,                                -- function
+            gsub,                                  -- function
+            len,                                   -- function
+            reverse,                               -- function
+            lower,                                 -- function
+            find,                                  -- function
+            unescape,                              -- function
+            sub,                                   -- function
+            dump,                                  -- function
+            split,                                 -- function
+            trim,                                  -- function
+            byte,                                  -- function
+            char,                                  -- function
+        },
+        math = {
+            acos,                                  -- function
+            exp,                                   -- function
+            floor,                                 -- function
+            atan,                                  -- function
+            ldexp,                                 -- function
+            deg,                                   -- function
+            pi,                                    -- number
+            cos,                                   -- function
+            modf,                                  -- function
+            log,                                   -- function
+            sin,                                   -- function
+            pow,                                   -- function
+            round,                                 -- function
+            frexp,                                 -- function
+            asin,                                  -- function
+            cosh,                                  -- function
+            random,                                -- function
+            limit,                                 -- function
+            isNaN,                                 -- function
+            ceil,                                  -- function
+            sqrt,                                  -- function
+            atan2,                                 -- function
+            sinh,                                  -- function
+            randomseed,                            -- function
+            fmod,                                  -- function
+            abs,                                   -- function
+            close,                                 -- function
+            max,                                   -- function
+            tanh,                                  -- function
+            huge,                                  -- number
+            rad,                                   -- function
+            tan,                                   -- function
+            min,                                   -- function
+        },
+        table = {
+            insert,                                -- function
+            copy,                                  -- function
+            unpack,                                -- function
+            contains,                              -- function
+            sort,                                  -- function
+            merge,                                 -- function
+            remove,                                -- function
+            concat,                                -- function
+            pack,                                  -- function
+            serialize,                             -- function
+            clear,                                 -- function
+        },
+        coroutine = {
+            resume,                                -- function
+            yield,                                 -- function
+            status,                                -- function
+            wrap,                                  -- function
+            running,                               -- function
+            create,                                -- function
+        },
+        bit32 = {
+            rshift,                                -- function
+            bxor,                                  -- function
+            rrotate,                               -- function
+            arshift,                               -- function
+            band,                                  -- function
+            lshift,                                -- function
+            bor,                                   -- function
+            extract,                               -- function
+            lrotate,                               -- function
+            replace,                               -- function
+            bnot,                                  -- function
+            btest,                                 -- function
+        },
+        io = {
+            stderr,                                -- userdata
+            close,                                 -- function
+            lines,                                 -- function
+            stdin,                                 -- userdata
+            stdout,                                -- userdata
+            input,                                 -- function
+            popen,                                 -- function
+            tmpfile,                               -- function
+            open,                                  -- function
+            type,                                  -- function
+            write,                                 -- function
+            flush,                                 -- function
+            read,                                  -- function
+            output,                                -- function
+        },
+        os = {
+            date,                                  -- function
+            exit,                                  -- function
+            tmpname,                               -- function
+            difftime,                              -- function
+            clock,                                 -- function
+            time,                                  -- function
+            getenv,                                -- function
+            setlocale,                             -- function
+        },
+    },
+    searchers = {
+        1,                                         -- function
+        2,                                         -- function
+    },
+    path,                                          -- string
+    config,                                        -- string
+    searchpath,                                    -- function
+}
+coroutine = {
+    resume,                                        -- function
+    yield,                                         -- function
+    status,                                        -- function
+    wrap,                                          -- function
+    running,                                       -- function
+    create,                                        -- function
+}
+math = {
+    acos,                                          -- function
+    exp,                                           -- function
+    floor,                                         -- function
+    atan,                                          -- function
+    ldexp,                                         -- function
+    deg,                                           -- function
+    pi,                                            -- number
+    cos,                                           -- function
+    modf,                                          -- function
+    log,                                           -- function
+    sin,                                           -- function
+    pow,                                           -- function
+    round,                                         -- function
+    frexp,                                         -- function
+    asin,                                          -- function
+    cosh,                                          -- function
+    random,                                        -- function
+    limit,                                         -- function
+    isNaN,                                         -- function
+    ceil,                                          -- function
+    sqrt,                                          -- function
+    atan2,                                         -- function
+    sinh,                                          -- function
+    randomseed,                                    -- function
+    fmod,                                          -- function
+    abs,                                           -- function
+    close,                                         -- function
+    max,                                           -- function
+    tanh,                                          -- function
+    huge,                                          -- number
+    rad,                                           -- function
+    tan,                                           -- function
+    min,                                           -- function
+}
+string = {
+    join,                                          -- function
+    match,                                         -- function
+    gmatch,                                        -- function
+    rep,                                           -- function
+    upper,                                         -- function
+    format,                                        -- function
+    gsub,                                          -- function
+    len,                                           -- function
+    reverse,                                       -- function
+    lower,                                         -- function
+    find,                                          -- function
+    unescape,                                      -- function
+    sub,                                           -- function
+    dump,                                          -- function
+    split,                                         -- function
+    trim,                                          -- function
+    byte,                                          -- function
+    char,                                          -- function
+}
+bit32 = {
+    rshift,                                        -- function
+    bxor,                                          -- function
+    rrotate,                                       -- function
+    arshift,                                       -- function
+    band,                                          -- function
+    lshift,                                        -- function
+    bor,                                           -- function
+    extract,                                       -- function
+    lrotate,                                       -- function
+    replace,                                       -- function
+    bnot,                                          -- function
+    btest,                                         -- function
+}
+ComboBase = {
+    new,                                           -- function
+}
+os = {
+    date,                                          -- function
+    exit,                                          -- function
+    tmpname,                                       -- function
+    difftime,                                      -- function
+    clock,                                         -- function
+    executePowerShell,                             -- function
+    time,                                          -- function
+    executePowerShellAsync,                        -- function
+    getenv,                                        -- function
+    setlocale,                                     -- function
+}
+callbackDefinition = {
+    OnRecvPacketX,                                 -- function
+}
+Serialization = {
+    saveTable,                                     -- function
+    exportstring,                                  -- function
+    loadTable,                                     -- function
+}
+debug = {
+    getupvalue,                                    -- function
+    debug,                                         -- function
+    getregistry,                                   -- function
+    getlocal,                                      -- function
+    traceback,                                     -- function
+    sethook,                                       -- function
+    setupvalue,                                    -- function
+    getinfo,                                       -- function
+    getmetatable,                                  -- function
+    gethook,                                       -- function
+    setuservalue,                                  -- function
+    getuservalue,                                  -- function
+    setmetatable,                                  -- function
+    upvaluejoin,                                   -- function
+    upvalueid,                                     -- function
+    setlocal,                                      -- function
+}
+environment = {
+    Sidas Auto Carry - Reborn.lua = {
+        v2,                                        -- string
+        kdig,                                      -- string
+        failreasononend,                           -- boolean
+        OnApplyBuff,                               -- function
+        v4,                                        -- string
+        WMaxRange,                                 -- string
+        disablethis,                               -- boolean
+        cBa,                                       -- function
+        devname,                                   -- string
+        AuthPage,                                  -- string
+        direct,                                    -- string
+        g2,                                        -- function
+        stringfff,                                 -- number
+        OnRemoveBuff,                              -- function
+        authmessage,                               -- string
+        UserName,                                  -- string
+        h2h1,                                      -- string
+        isitthere,                                 -- boolean
+        QMaxRange,                                 -- userdata
+        file2,                                     -- userdata
+        offal,                                     -- string
+        h4h1,                                      -- string
+        failmessage,                               -- string
+        DelayLoad,                                 -- function
+        v1,                                        -- string
+        scriptver,                                 -- number
+        Streaming,                                 -- userdata
+        Essendon,                                  -- function
+        PageReq,                                   -- function
+        v3,                                        -- string
+        LoadInit,                                  -- function
+        validatingmessage,                         -- string
+        PrintSystemMessage,                        -- function
+        Open,                                      -- function
+        ij,                                        -- function
+        content2,                                  -- string
+        fw,                                        -- function
+        rg,                                        -- function
+        noservers,                                 -- string
+        scriptname,                                -- string
+        attempts,                                  -- number
+        g1,                                        -- function
+        hjj,                                       -- function
+        FreakyTime,                                -- function
+        kdgg,                                      -- function
+        j,                                         -- function
+        g3,                                        -- function
+        h1h1,                                      -- string
+        s = {
+            1,                                     -- string
+            2,                                     -- string
+            3,                                     -- string
+            4,                                     -- string
+            5,                                     -- string
+            6,                                     -- string
+            7,                                     -- string
+            8,                                     -- string
+            9,                                     -- string
+        },
+        failcode,                                  -- number
+        kskg,                                      -- string
+        c,                                         -- function
+        h3h1,                                      -- string
+        HOSTSFILE,                                 -- string
+        FILE_NAME,                                 -- string
+    },
+    ec7799b3de.lua = {
+        OnLoad,                                    -- function
+        FILE_NAME,                                 -- string
+    },
+    PROTECTED_0 = {
+        FILE_NAME,                                 -- string
+    },
+}
+io = {
+    stderr,                                        -- userdata
+    close,                                         -- function
+    lines,                                         -- function
+    stdin,                                         -- userdata
+    stdout,                                        -- userdata
+    input,                                         -- function
+    popen,                                         -- function
+    tmpfile,                                       -- function
+    open,                                          -- function
+    type,                                          -- function
+    write,                                         -- function
+    flush,                                         -- function
+    read,                                          -- function
+    output,                                        -- function
+}
+DamageLibrary = {
+    Masteries = {
+        Havoc = {
+            damage,                                -- number
+            points,                                -- number
+        },
+        Executioner = {
+            is_used,                               -- boolean
+            hpthreshold,                           -- number
+            damage,                                -- number
+        },
+        Butcher = {
+            Damage,                                -- function
+            damage,                                -- number
+            points,                                -- number
+        },
+        CalcDamage,                                -- function
+    },
+    Damage,                                        -- function
+    Champ = {
+        BuffCheck,                                 -- function
+        use_ability,                               -- boolean
+        Damage,                                    -- function
+        use_calcdamage,                            -- boolean
+        AddDamage,                                 -- function
+        use_calcability,                           -- boolean
+        use_abilityonhit,                          -- boolean
+    },
+    OnHit = {
+        Damage,                                    -- function
+        WitsEnd = {
+            id,                                    -- number
+            damage,                                -- number
+        },
+        Malady = {
+            id,                                    -- number
+            damage,                                -- number
+        },
+        ItemSlot = {
+            1,                                     -- number
+            2,                                     -- number
+            3,                                     -- number
+            4,                                     -- number
+            5,                                     -- number
+            6,                                     -- number
+        },
+        Bloodrazor = {
+            id,                                    -- number
+            is_owned,                              -- boolean
+            damagepercent,                         -- number
+            CalcDamage,                            -- function
+            minioncap,                             -- number
+        },
+    },
+    CalcDamage,                                    -- function
+}
+JSON = {
+}
+table = {
+    insert,                                        -- function
+    copy,                                          -- function
+    unpack,                                        -- function
+    contains,                                      -- function
+    sort,                                          -- function
+    merge,                                         -- function
+    remove,                                        -- function
+    concat,                                        -- function
+    pack,                                          -- function
+    serialize,                                     -- function
+    clear,                                         -- function
+}
+
+
+
+--[[ USERDATA ]]--
+objManager                                         -- userdata
+__Alerter                                          -- userdata
+D3DXVECTOR3                                        -- userdata
+CLoLPacket                                         -- userdata
+Line                                               -- userdata
+Packet                                             -- userdata
+LoLItem                                            -- userdata
+cameraPos                                          -- userdata
+CTemplate5                                         -- userdata
+__CP__NoSpriteButton                               -- userdata
+__CP__Color                                        -- userdata
+TargetSelector                                     -- userdata
+CIntHolder                                         -- userdata
+__CP                                               -- userdata
+__CP__Button                                       -- userdata
+LFile                                              -- userdata
+AdvancedCallback                                   -- userdata
+mousePos                                           -- userdata
+CSprite                                            -- userdata
+SpellData                                          -- userdata
+D3DRECT                                            -- userdata
+RealBuff                                           -- userdata
+CObjectManager                                     -- userdata
+Point                                              -- userdata
+GameState                                          -- userdata
+D3DXVECTOR2                                        -- userdata
+myHero                                             -- userdata
+NavigationPath                                     -- userdata
+__CP__Picker                                       -- userdata
+player                                             -- userdata
+RAFFiles                                           -- userdata
+CSpell                                             -- userdata
+CUnit                                              -- userdata
+GUI                                                -- userdata
+Circle                                             -- userdata
+TargetPredictionVIP                                -- userdata
+WayPointManager                                    -- userdata
+Vector                                             -- userdata
+_Streaming                                         -- userdata
+MEC                                                -- userdata
+heroManager                                        -- userdata
+CBuff                                              -- userdata
+Path                                               -- userdata
+minionManager                                      -- userdata
+Polygon                                            -- userdata
+ChampionLane                                       -- userdata
+TargetPrediction                                   -- userdata
+LineSegment                                        -- userdata
+CHeroManager                                       -- userdata
+D3DXVECTOR4                                        -- userdata
+scriptConfig                                       -- userdata
+APStack                                            -- userdata
+
+
+
+--[[ FUNCTIONS ]]--
+GetRafVersion                                      -- function
+timerText                                          -- function
+AllowCameraInput                                   -- function
+AddIssueOrderCallback                              -- function
+STest                                              -- function
+DrawCircleMinimap                                  -- function
+DrawCircle                                         -- function
+TS_Print                                           -- function
+autoLevel__OnTick                                  -- function
+get2DFrom3D                                        -- function
+Base64Decode                                       -- function
+AddRecvChatCallback                                -- function
+GetInventorySlotIsEmpty                            -- function
+EnableOverlay                                      -- function
+DrawCircle3D                                       -- function
+SetZIndex                                          -- function
+TS_Ignore                                          -- function
+ApplyParticle                                      -- function
+GetMEC                                             -- function
+class                                              -- function
+GetFriendlyBarData                                 -- function
+_CalcCombos                                        -- function
+_LineDistance                                      -- function
+GetSpellData                                       -- function
+GetBuildDate                                       -- function
+GetLoLPath                                         -- function
+Queue                                              -- function
+GetMinimapX                                        -- function
+RunCmdCommand                                      -- function
+PingSignal                                         -- function
+GetRafFiles                                        -- function
+ReadDWORD                                          -- function
+TCDrawSetDrawText                                  -- function
+TS_GetPriority                                     -- function
+GetExactFPS                                        -- function
+ProLoad                                            -- function
+OnScreen                                           -- function
+BuyItem                                            -- function
+BuffIsValid                                        -- function
+SendChat                                           -- function
+FindGroupCenterNearTarget                          -- function
+DrawCircle2D                                       -- function
+GetHeroLeveled                                     -- function
+assert                                             -- function
+SetChatStatus                                      -- function
+file_exists                                        -- function
+GetInventoryItemIsCastable                         -- function
+DrawLines2                                         -- function
+loadfile                                           -- function
+GetItem                                            -- function
+pcall                                              -- function
+VectorMovementCollision                            -- function
+DrawLine3D                                         -- function
+DeleteFile                                         -- function
+MuramanaOn                                         -- function
+EnableZoomHack                                     -- function
+DrawTextA                                          -- function
+GetMinimap                                         -- function
+GetDistance                                        -- function
+rawlen                                             -- function
+ProcessExist                                       -- function
+checkhitlinepoint                                  -- function
+RecvPacket                                         -- function
+GetGameTimer                                       -- function
+GetFountain                                        -- function
+DwordToFloat                                       -- function
+TS_SetHeroPriority                                 -- function
+AddSendPacketCallback                              -- function
+InFountain                                         -- function
+OnMasteriesDownload                                -- function
+AddApplyBuffCallback                               -- function
+SetForeground                                      -- function
+GetUnitHPBarOffset                                 -- function
+setmetatable                                       -- function
+SetClipboardText                                   -- function
+ValidTargetNear                                    -- function
+BlockOrder                                         -- function
+GetEnemySpawnPos                                   -- function
+GetClipboardText                                   -- function
+TCDrawSetDraw                                      -- function
+GetMinionCollision                                 -- function
+GetInventorySlotItem                               -- function
+AddUpdateBuffCallback                              -- function
+_GetIntersectionPoints                             -- function
+CursorIsUnder                                      -- function
+SC__OnDraw                                         -- function
+LoadDDevScript                                     -- function
+minionManager__OnDeleteObj                         -- function
+TCDrawSetHero                                      -- function
+collectgarbage                                     -- function
+DelayAction                                        -- function
+LoadScript                                         -- function
+GetSpawnPos                                        -- function
+PlayMediaPS                                        -- function
+WriteDWORD                                         -- function
+getmetatable                                       -- function
+super                                              -- function
+GetInventoryHaveItem                               -- function
+GetLocalization                                    -- function
+DrawLineBorder                                     -- function
+RemoveSendPacketCallback                           -- function
+ValidBBoxTarget                                    -- function
+AddCreateObjCallback                               -- function
+CastItem                                           -- function
+GetSelfBarData                                     -- function
+InShop                                             -- function
+WriteFile                                          -- function
+DoSpeech                                           -- function
+rawget                                             -- function
+GetShop                                            -- function
+NearFountain                                       -- function
+TS_SetPriorityA                                    -- function
+AddRemoveBuffCallback                              -- function
+ScanDirectory                                      -- function
+AddParticleCallback                                -- function
+AddNewPathCallback                                 -- function
+require                                            -- function
+GetParticleObject                                  -- function
+GetSprite                                          -- function
+MINION_SORT_HEALTH_ASC                             -- function
+GetWardsSlots                                      -- function
+ValidTarget                                        -- function
+HookPackets                                        -- function
+DownloadFile                                       -- function
+rawequal                                           -- function
+GetEnemyBarData                                    -- function
+TimerText                                          -- function
+QuitGame                                           -- function
+Base64Encode                                       -- function
+DrawText                                           -- function
+SellItem                                           -- function
+GetGameSettings                                    -- function
+ShowConsole                                        -- function
+CastSpell2                                         -- function
+GetTurrets                                         -- function
+DrawLineBorder3D                                   -- function
+ImLoading                                          -- function
+VectorDirection                                    -- function
+SetTarget                                          -- function
+GetItemDB                                          -- function
+ctype                                              -- function
+minionManager__OnCreateObj                         -- function
+_BuildCircle                                       -- function
+print                                              -- function
+RunAsyncCmdCommand                                 -- function
+xpcall                                             -- function
+autoLevelSetFunction                               -- function
+KillProcess                                        -- function
+LoadMasteriesFile                                  -- function
+tostring                                           -- function
+AddTickCallback                                    -- function
+GetMasteries                                       -- function
+MINION_SORT_MAXHEALTH_ASC                          -- function
+MINION_SORT_AD_ASC                                 -- function
+AddAnimationCallback                               -- function
+DisableOverlay                                     -- function
+LineSegmentIntersection                            -- function
+DecodePacket                                       -- function
+GetTextArea                                        -- function
+GetGame                                            -- function
+BlockMsg                                           -- function
+AddCastSpellCallback                               -- function
+MINION_SORT_AD_DEC                                 -- function
+createSprite                                       -- function
+SendPacket                                         -- function
+GetTarget                                          -- function
+ShowGreenClick                                     -- function
+DrawArrows                                         -- function
+_IsLineSegmentIntersection                         -- function
+PopenHidden                                        -- function
+TargetSelector__OnSendChat                         -- function
+DrawHitBox                                         -- function
+pairs                                              -- function
+TCDrawSetMode                                      -- function
+getEnv                                             -- function
+GetMinimapY                                        -- function
+GetDistanceBBox                                    -- function
+IsFocused                                          -- function
+FileExist                                          -- function
+AddResetCallback                                   -- function
+PrintAlert                                         -- function
+ShowRedClick                                       -- function
+AllowKeyInput                                      -- function
+GetEnemyHeroes                                     -- function
+NearShop                                           -- function
+AddRecvPacketCallback                              -- function
+MINION_SORT_HEALTH_DEC                             -- function
+_GetDistance                                       -- function
+DrawTrack                                          -- function
+GetCurrentEnv                                      -- function
+dofile                                             -- function
+VectorPointProjectionOnLineSegment                 -- function
+checkhitcone                                       -- function
+IsRecipePurchasable                                -- function
+CreateDirectory                                    -- function
+PrintChat                                          -- function
+IsWall                                             -- function
+GetAllyHeroes                                      -- function
+error                                              -- function
+GetDistanceFromMouse                               -- function
+AddUpdateObjCallback                               -- function
+DeleteObject                                       -- function
+SendMessage                                        -- function
+AddProcessSpellCallback                            -- function
+IsKeyPressed                                       -- function
+DecodeString                                       -- function
+AddNotifyEventCallback                             -- function
+GetAsyncWebResult                                  -- function
+GetInGameTimer                                     -- function
+IsLineSegmentIntersection                          -- function
+BlockChat                                          -- function
+Prediction__OnTick                                 -- function
+SetZState                                          -- function
+TargetHaveBuff                                     -- function
+MuramanaToggle                                     -- function
+ChampionLane__OnTick                               -- function
+CastSpell                                          -- function
+_OnLineSegment                                     -- function
+DrawLines                                          -- function
+type                                               -- function
+ARGB                                               -- function
+OutputDebugString                                  -- function
+GetWardSlot                                        -- function
+LevelSpell                                         -- function
+LoadDekland                                        -- function
+AddDeleteObjCallback                               -- function
+TCDrawSetDrawCircle                                -- function
+ReadFile                                           -- function
+GetTickCount                                       -- function
+GameWin                                            -- function
+DrawArrow                                          -- function
+MakeSurePathExists                                 -- function
+GetDistance2D                                      -- function
+OnSendPacket                                       -- function
+PrintFloatText                                     -- function
+GetLatency                                         -- function
+property                                           -- function
+FloatToDword                                       -- function
+MasteriesLoaded                                    -- function
+GetWebSprite                                       -- function
+OnMasteriesRetry                                   -- function
+GetPtr                                             -- function
+MasteriesOnLoad                                    -- function
+GameIsOver                                         -- function
+PlayFile                                           -- function
+AddNum                                             -- function
+GetSave                                            -- function
+VectorIntersection                                 -- function
+DrawRectangle                                      -- function
+getDmg                                             -- function
+DrawLine                                           -- function
+GetMyHero                                          -- function
+ReadIni                                            -- function
+AddDrawCallback                                    -- function
+GetAllyHeros                                       -- function
+IsWindowMode                                       -- function
+GetFileSize                                        -- function
+PlaySoundPS                                        -- function
+_GetPerpendicularFoot                              -- function
+SecureScriptLoad                                   -- function
+GetPredictionPos                                   -- function
+writeConfigsspells                                 -- function
+ToAscii                                            -- function
+select                                             -- function
+checkhitwall                                       -- function
+IsDDev                                             -- function
+RGB                                                -- function
+DrawText3D                                         -- function
+checkhitlinepass                                   -- function
+ApplyParticle2                                     -- function
+AddBugsplatCallback                                -- function
+checkhitaoe                                        -- function
+load                                               -- function
+IsGrass                                            -- function
+GetEnemyHeros                                      -- function
+IsItemPurchasable                                  -- function
+GetUnitHPBarPos                                    -- function
+SSL                                                -- function
+UnitToScreen                                       -- function
+TargetPrediction__OnTick                           -- function
+dprint                                             -- function
+GetWindowPos                                       -- function
+drawLine                                           -- function
+AddChatCallback                                    -- function
+getSpellType                                       -- function
+_GetDistance2                                      -- function
+autoLevelSetSequence                               -- function
+GameLoser                                          -- function
+ctostring                                          -- function
+AddExitCallback                                    -- function
+FindGroupCenterFromNearestEnemies                  -- function
+IsWallOfGrass                                      -- function
+GetCursorPos                                       -- function
+SC__OnWndMsg                                       -- function
+GetFPS                                             -- function
+DumpPacket                                         -- function
+GetStart                                           -- function
+SetGVar                                            -- function
+GameWinner                                         -- function
+BlockSpell                                         -- function
+MuramanaOff                                        -- function
+DrawTextEx                                         -- function
+returnSprite                                       -- function
+DumpPacketData                                     -- function
+AddMsgCallback                                     -- function
+Rect                                               -- function
+TS_SetFocus                                        -- function
+RGBA                                               -- function
+TS_SetPriority                                     -- function
+CalculatePath                                      -- function
+GetPinkWardSlot                                    -- function
+GetRegion                                          -- function
+TargetHaveParticle                                 -- function
+WorldToScreen                                      -- function
+setEnv                                             -- function
+LoadProtectedScript                                -- function
+GetDrawClock                                       -- function
+ipairs                                             -- function
+GetDictionaryString                                -- function
+GetWebResult                                       -- function
+rawset                                             -- function
+VectorPointProjectionOnLine                        -- function
+ApplyParticleTest                                  -- function
+GetGVar                                            -- function
+UpdateWindow                                       -- function
+IsKeyDown                                          -- function
+_CalcSpellPosForGroup                              -- function
+DrawLines3D                                        -- function
+GetKey                                             -- function
+DrawRectangleOutline                               -- function
+ToggleShowName                                     -- function
+AddLoadCallback                                    -- function
+UnderTurret                                        -- function
+CountEnemyHeroInRange                              -- function
+GetUser                                            -- function
+GetDistanceSqr                                     -- function
+tonumber                                           -- function
+GetMap                                             -- function
+UnicodeToAscii                                     -- function
+MINION_SORT_MAXHEALTH_DEC                          -- function
+AddGameOverCallback                                -- function
+next                                               -- function
+GetPredictionHealth                                -- function
+LoadVIPScript                                      -- function
+VectorType                                         -- function
+MuramanaIsActive                                   -- function
+DirectoryExist                                     -- function
+CastSpellEx                                        -- function
+AddUnloadCallback                                  -- function
+AddSendPacketCallback1                             -- function
+CanUseSpell                                        -- function
+SetInterval                                        -- function
+
+
+
+--[[ REST ]]--
+RebornScriptName                                   -- string
+WINDOW_W                                           -- number
+TEAM_NONE                                          -- number
+TARGET_MOST_AD                                     -- number
+FILE_NAME                                          -- string
+TARGET_PRIORITY                                    -- number
+PING_OMW                                           -- number
+DRAW_HANDLER                                       -- number
+PING_ASSIST                                        -- number
+WM_LBUTTONDBLCLK                                   -- number
+PING_DANGER                                        -- number
+TARGET_DEAD                                        -- number
+MINION_ALL                                         -- number
+TEAM_NEUTRAL                                       -- number
+SCRIPT_PARAM_ONKEYTOGGLE                           -- number
+PING_ENEMY_MISSING                                 -- number
+_W                                                 -- number
+WINDOW_MODE                                        -- boolean
+SPRITE_PATH                                        -- string
+ITEM_3                                             -- number
+ITEM_7                                             -- number
+COOLDOWN                                           -- number
+SCRIPT_PARAM_ONOFF                                 -- number
+WM_LBUTTONUP                                       -- number
+SCRIPT_PARAM_INFO                                  -- number
+SCRIPT_PARAM_COLOR                                 -- number
+ITEM_6                                             -- number
+SUMMONER_1                                         -- number
+TEAM_RED                                           -- number
+DAMAGE_MAGIC                                       -- number
+SPELL_4                                            -- number
+SUPRESSED                                          -- number
+uniqueId                                           -- number
+ITEM_4                                             -- number
+RebornStreamingEnabled                             -- boolean
+LIB_PATH                                           -- string
+TARGET_NEAR_MOUSE                                  -- number
+KEY_DOWN                                           -- number
+WM_MOUSEWHEEL                                      -- number
+TARGET_LESS_CAST_PRIORITY                          -- number
+_VERSION                                           -- string
+WM_RBUTTONUP                                       -- number
+SPELL_3                                            -- number
+TICK_HANDLER                                       -- number
+WM_MOUSEMOVE                                       -- number
+MSG_HANDLER                                        -- number
+WM_LBUTTONDOWN                                     -- number
+SPELL_2                                            -- number
+TEAM_ENEMY                                         -- number
+READY                                              -- number
+NOMANA                                             -- number
+WINDOW_Y                                           -- number
+_Q                                                 -- number
+MINION_ENEMY                                       -- number
+TARGET_LOW_HP                                      -- number
+Reborn_Loaded                                      -- boolean
+WINDOW_X                                           -- number
+PING_ASSIST_ME                                     -- number
+PING_RETREAT                                       -- number
+PING_ALERT                                         -- number
+ITEM_2                                             -- number
+WM_MOUSEHWHEEL                                     -- number
+ITEM_1                                             -- number
+WM_RBUTTONDOWN                                     -- number
+MINION_JUNGLE                                      -- number
+MINION_ALLY                                        -- number
+TARGET_LESS_CAST                                   -- number
+MINION_OTHER                                       -- number
+SCRIPT_PARAM_ONKEYDOWN                             -- number
+SCRIPT_PARAM_LIST                                  -- number
+SUMMONER_2                                         -- number
+PING_NORMAL                                        -- number
+NOTLEARNED                                         -- number
+PROCESS_SPELL_HANDLER                              -- number
+ITEM_5                                             -- number
+_E                                                 -- number
+PING_FALLBACK                                      -- number
+GAME_PATH                                          -- string
+TARGET_LOW_HP_PRIORITY                             -- number
+TARGET_MOST_AP                                     -- number
+PING_MISSING                                       -- number
+PING_ON_MY_WAY                                     -- number
+WINDOW_H                                           -- number
+SCRIPT_PATH                                        -- string
+RECALL                                             -- number
+SCRIPT_PARAM_SLICE                                 -- number
+TARGET_CLOSEST                                     -- number
+KEY_UP                                             -- number
+SPELL_1                                            -- number
+VIP_USER                                           -- boolean
+BOL_PATH                                           -- string
+TEAM_BLUE                                          -- number
+WM_SIZE                                            -- number
+DAMAGE_PHYSICAL                                    -- number
+UNKNOWN                                            -- number
+_R                                                 -- number

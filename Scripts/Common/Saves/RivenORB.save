@@ -1,0 +1,8 @@
+return {
+	["Mixed"] = 88,
+	["Combo"] = 88,
+	["STR"] = 350,
+	["LastHit"] = 88,
+	["ExtraWindUpTime"] = 80,
+	["LaneClear"] = 88,
+}

@@ -1,0 +1,41 @@
+return {
+	["ally"] = {
+		["mid"] = {
+		},
+		["jungle"] = {
+		},
+		["top"] = {
+		},
+		["champions"] = {
+			[1] = {
+				["mid"] = 0,
+				["jungle"] = 0,
+				["isJungler"] = false,
+				["top"] = 0,
+				["bot"] = 0,
+			},
+		},
+		["bot"] = {
+		},
+		["unknown"] = {
+		},
+	},
+	["tickUpdate"] = 0.25,
+	["mapIndex"] = 15,
+	["nextUpdate"] = 0,
+	["myLane"] = "unknown",
+	["enemy"] = {
+		["mid"] = {
+		},
+		["jungle"] = {
+		},
+		["top"] = {
+		},
+		["champions"] = {
+		},
+		["bot"] = {
+		},
+		["unknown"] = {
+		},
+	},
+}

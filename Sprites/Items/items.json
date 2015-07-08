@@ -1,0 +1,6668 @@
+{
+  "basicitem": {
+    "itemgroup": "",
+    "notes": [
+
+    ],
+    "stacks": 1,
+    "consumed": false,
+    "inStore": true,
+    "hideFromAll": false,
+    "specialRecipe": "0",
+    "usableInStore": false,
+    "canBeSold": true,
+    "requiredChampion": "",
+    "requiredLevel": 0,
+    "into": [
+
+    ],
+    "from": [
+
+    ],
+    "depth": 1,
+    "stats": {
+      "FlatHPPoolMod": 0,
+      "FlatMPPoolMod": 0,
+      "PercentHPPoolMod": 0,
+      "PercentMPPoolMod": 0,
+      "FlatHPRegenMod": 0,
+      "PercentHPRegenMod": 0,
+      "FlatMPRegenMod": 0,
+      "PercentMPRegenMod": 0,
+      "FlatArmorMod": 0,
+      "PercentArmorMod": 0,
+      "FlatPhysicalDamageMod": 0,
+      "PercentPhysicalDamageMod": 0,
+      "FlatMagicDamageMod": 0,
+      "PercentMagicDamageMod": 0,
+      "FlatMovementSpeedMod": 0,
+      "PercentMovementSpeedMod": 0,
+      "FlatAttackSpeedMod": 0,
+      "PercentAttackSpeedMod": 0,
+      "PercentDodgeMod": 0,
+      "FlatCritChanceMod": 0,
+      "PercentCritChanceMod": 0,
+      "FlatCritDamageMod": 0,
+      "PercentCritDamageMod": 0,
+      "FlatBlockMod": 0,
+      "PercentBlockMod": 0,
+      "FlatSpellBlockMod": 0,
+      "PercentSpellBlockMod": 0,
+      "FlatEXPBonus": 0,
+      "PercentEXPBonus": 0
+    }
+  },
+  "items": [
+    {
+      "id": "2009",
+      "icon": "2009_Mini_Pot.dds",
+      "name": "2009",
+      "description": "2009",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "consumed": true,
+      "inStore": false,
+      "stats": {
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "2050",
+      "icon": "2050_Explorer_Ward.dds",
+      "name": "2050",
+      "description": "2050",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "stats": {
+      },
+      "tags": [
+        "Consumable",
+        "Tools"
+      ]
+    },
+    {
+      "id": "2052",
+      "icon": "2052_Poro_Snack.dds",
+      "name": "2052",
+      "description": "2052",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "consumed": true,
+      "inStore": false,
+      "stats": {
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3166",
+      "icon": "3166_Bonetooth_Necklace_Y_1.DDS",
+      "name": "3166",
+      "description": "3166",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3167",
+      "icon": "3167_Bonetooth_Necklace_Y_2.DDS",
+      "name": "3167",
+      "description": "3167",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3168",
+      "icon": "3168_Bonetooth_Necklace_Y_3.DDS",
+      "name": "3168",
+      "description": "3168",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3169",
+      "icon": "3169_Bonetooth_Necklace_Y_4.DDS",
+      "name": "3169",
+      "description": "3169",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ],
+      "into": [
+        "3175",
+        "3410",
+        "3416",
+        "3422",
+        "3455"
+      ]
+    },
+    {
+      "id": "3171",
+      "icon": "3171_Bonetooth_Necklace_Y_5.DDS",
+      "name": "3171",
+      "description": "3171",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3175",
+      "icon": "3175_Khazix_Head.DDS",
+      "name": "3175",
+      "description": "3175",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "specialRecipe": "3169",
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3200",
+      "icon": "3200_HexCore.dds",
+      "name": "3200",
+      "description": "3200",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "specialRecipe": "1",
+      "canBeSold": false,
+      "requiredChampion": "Viktor",
+      "into": [
+        "3196",
+        "3197",
+        "3198"
+      ],
+      "stats": {
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3340",
+      "icon": "3340_YellowTrinket.dds",
+      "name": "3340",
+      "description": "3340",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ],
+      "into": [
+        "3361",
+        "3362"
+      ]
+    },
+    {
+      "id": "3341",
+      "icon": "3341_RedTrinket.dds",
+      "name": "3341",
+      "description": "3341",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ],
+      "into": [
+        "3364"
+      ]
+    },
+    {
+      "id": "3342",
+      "icon": "3342_BlueTrinket.dds",
+      "name": "3342",
+      "description": "3342",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ],
+      "into": [
+        "3363"
+      ]
+    },
+    {
+      "id": "3345",
+      "icon": "3345_Soul_Anchor.dds",
+      "name": "3345",
+      "description": "3345",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "canBeSold": false,
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3405",
+      "icon": "3405_Bonetooth_Necklace_R_1.DDS",
+      "name": "3405",
+      "description": "3405",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3406",
+      "icon": "3406_Bonetooth_Necklace_R_2.DDS",
+      "name": "3406",
+      "description": "3406",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3407",
+      "icon": "3407_Bonetooth_Necklace_R_3.DDS",
+      "name": "3407",
+      "description": "3407",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3408",
+      "icon": "3408_Bonetooth_Necklace_R_4.DDS",
+      "name": "3408",
+      "description": "3408",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3409",
+      "icon": "3409_Bonetooth_Necklace_R_5.DDS",
+      "name": "3409",
+      "description": "3409",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3410",
+      "icon": "3410_Khazix_Head.DDS",
+      "name": "3410",
+      "description": "3410",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "specialRecipe": "3169",
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3411",
+      "icon": "3411_Bonetooth_Necklace_B_1.DDS",
+      "name": "3411",
+      "description": "3411",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3412",
+      "icon": "3412_Bonetooth_Necklace_B_2.DDS",
+      "name": "3412",
+      "description": "3412",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3413",
+      "icon": "3413_Bonetooth_Necklace_B_3.DDS",
+      "name": "3413",
+      "description": "3413",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3414",
+      "icon": "3414_Bonetooth_Necklace_B_4.DDS",
+      "name": "3414",
+      "description": "3414",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3415",
+      "icon": "3415_Bonetooth_Necklace_B_5.DDS",
+      "name": "3415",
+      "description": "3415",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3416",
+      "icon": "3416_Khazix_Head.DDS",
+      "name": "3416",
+      "description": "3416",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "specialRecipe": "3169",
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3417",
+      "icon": "3417_Bonetooth_Necklace_G_1.DDS",
+      "name": "3417",
+      "description": "3417",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3418",
+      "icon": "3418_Bonetooth_Necklace_G_2.DDS",
+      "name": "3418",
+      "description": "3418",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3419",
+      "icon": "3419_Bonetooth_Necklace_G_3.DDS",
+      "name": "3419",
+      "description": "3419",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3420",
+      "icon": "3420_Bonetooth_Necklace_G_4.DDS",
+      "name": "3420",
+      "description": "3420",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3421",
+      "icon": "3421_Bonetooth_Necklace_G_5.DDS",
+      "name": "3421",
+      "description": "3421",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3422",
+      "icon": "3175_Khazix_Head.DDS",
+      "name": "3422",
+      "description": "3422",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "specialRecipe": "3169",
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3450",
+      "icon": "3417_Bonetooth_Necklace_G_1.DDS",
+      "name": "3450",
+      "description": "3450",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "canBeSold": false,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3451",
+      "icon": "3418_Bonetooth_Necklace_G_2.DDS",
+      "name": "3451",
+      "description": "3451",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "canBeSold": false,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3452",
+      "icon": "3419_Bonetooth_Necklace_G_3.DDS",
+      "name": "3452",
+      "description": "3452",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "canBeSold": false,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3453",
+      "icon": "3420_Bonetooth_Necklace_G_4.DDS",
+      "name": "3453",
+      "description": "3453",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "canBeSold": false,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3454",
+      "icon": "3421_Bonetooth_Necklace_G_5.DDS",
+      "name": "3454",
+      "description": "3454",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "canBeSold": false,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3455",
+      "icon": "3175_Khazix_Head.DDS",
+      "name": "3455",
+      "description": "3455",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 0,
+        "total": 0,
+        "sell": 0
+      },
+      "inStore": false,
+      "hideFromAll": true,
+      "specialRecipe": "3169",
+      "canBeSold": false,
+      "requiredChampion": "Rengar",
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "2003",
+      "icon": "2003_Health_Potion.dds",
+      "name": "2003",
+      "description": "2003",
+      "itemgroup": "HealthPotion",
+      "gold": {
+        "base": 35,
+        "total": 35,
+        "sell": 14
+      },
+      "stacks": 5,
+      "consumed": true,
+      "stats": {
+      },
+      "tags": [
+        "Consumable",
+        "Tools"
+      ]
+    },
+    {
+      "id": "2004",
+      "icon": "2004_Mana_Potion.dds",
+      "name": "2004",
+      "description": "2004",
+      "itemgroup": "ManaPotion",
+      "gold": {
+        "base": 35,
+        "total": 35,
+        "sell": 14
+      },
+      "stacks": 5,
+      "consumed": true,
+      "stats": {
+      },
+      "tags": [
+        "Consumable",
+        "Tools"
+      ]
+    },
+    {
+      "id": "2010",
+      "icon": "2009_Mini_Pot.dds",
+      "name": "2010",
+      "description": "2010",
+      "itemgroup": "HealthPotion",
+      "gold": {
+        "base": 35,
+        "total": 35,
+        "sell": 14
+      },
+      "stacks": 5,
+      "consumed": true,
+      "inStore": false,
+      "stats": {
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "2044",
+      "icon": "1020_Glowing_Orb.dds",
+      "name": "2044",
+      "description": "2044",
+      "itemgroup": "GreenWards",
+      "gold": {
+        "base": 75,
+        "total": 75,
+        "sell": 30
+      },
+      "stacks": 3,
+      "consumed": true,
+      "stats": {
+      },
+      "tags": [
+        "Consumable",
+        "Tools",
+        "Vision"
+      ]
+    },
+    {
+      "id": "2043",
+      "icon": "096_Eye_of_the_Observer.dds",
+      "name": "2043",
+      "description": "2043",
+      "itemgroup": "PinkWards",
+      "gold": {
+        "base": 100,
+        "total": 100,
+        "sell": 40
+      },
+      "stacks": 2,
+      "consumed": true,
+      "stats": {
+      },
+      "tags": [
+        "Consumable",
+        "Tools",
+        "Vision",
+        "Stealth"
+      ]
+    },
+    {
+      "id": "1004",
+      "icon": "1004_Faerie_Charm.dds",
+      "name": "1004",
+      "description": "1004",
+      "gold": {
+        "base": 180,
+        "total": 180,
+        "sell": 126
+      },
+      "into": [
+        "3028",
+        "3070",
+        "3073",
+        "1080",
+        "3114"
+      ],
+      "stats": {
+        "FlatMPRegenMod": 0.6
+      },
+      "tags": [
+        "ManaRegen",
+        "Magic"
+      ]
+    },
+    {
+      "id": "1006",
+      "icon": "1006_Rejuvenation_Bead.dds",
+      "name": "1006",
+      "description": "1006",
+      "gold": {
+        "base": 180,
+        "total": 180,
+        "sell": 126
+      },
+      "into": [
+        "3077",
+        "3112",
+        "3083",
+        "1080",
+        "2051",
+        "3105"
+      ],
+      "stats": {
+        "FlatHPRegenMod": 1.0
+      },
+      "tags": [
+        "HealthRegen",
+        "Defense"
+      ]
+    },
+    {
+      "id": "2039",
+      "icon": "2039_Potion_of_Brilliance.dds",
+      "name": "2039",
+      "description": "2039",
+      "gold": {
+        "base": 250,
+        "total": 250,
+        "sell": 100
+      },
+      "stacks": 3,
+      "consumed": true,
+      "usableInStore": true,
+      "stats": {
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "CooldownReduction",
+        "Consumable",
+        "Tools"
+      ]
+    },
+    {
+      "id": "2047",
+      "icon": "2047_OraclesExtract.dds",
+      "name": "2047",
+      "description": "2047",
+      "gold": {
+        "base": 250,
+        "total": 250,
+        "sell": 100
+      },
+      "consumed": true,
+      "usableInStore": true,
+      "stats": {
+      },
+      "tags": [
+        "Consumable",
+        "Tools",
+        "Stealth",
+        "Vision"
+      ]
+    },
+    {
+      "id": "1029",
+      "icon": "1029_Cloth_Armour.dds",
+      "name": "1029",
+      "description": "1029",
+      "gold": {
+        "base": 300,
+        "total": 300,
+        "sell": 210
+      },
+      "into": [
+        "3047",
+        "3024",
+        "3075",
+        "3159",
+        "3191"
+      ],
+      "stats": {
+        "FlatArmorMod": 15.0
+      },
+      "tags": [
+        "Armor",
+        "Defense"
+      ]
+    },
+    {
+      "id": "1039",
+      "icon": "1039_Butchers_Machete.dds",
+      "name": "1039",
+      "description": "1039",
+      "gold": {
+        "base": 300,
+        "total": 300,
+        "sell": 120
+      },
+      "into": [
+        "3106",
+        "1080"
+      ],
+      "stats": {
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "1001",
+      "icon": "1001_Boots_of_Speed.dds",
+      "name": "1001",
+      "description": "1001",
+      "itemgroup": "BootsNormal",
+      "gold": {
+        "base": 325,
+        "total": 325,
+        "sell": 227
+      },
+      "into": [
+        "3006",
+        "3047",
+        "3020",
+        "3158",
+        "3111",
+        "3117",
+        "3009"
+      ],
+      "stats": {
+        "FlatMovementSpeedMod": 25.0
+      },
+      "tags": [
+        "Boots",
+        "Movement"
+      ]
+    },
+    {
+      "id": "2041",
+      "icon": "2041_Crystalline_Flask.dds",
+      "name": "2041",
+      "description": "2041",
+      "gold": {
+        "base": 345,
+        "total": 345,
+        "sell": 138
+      },
+      "stats": {
+      },
+      "tags": [
+        "HealthRegen",
+        "Defense",
+        "ManaRegen",
+        "Magic",
+        "Consumable",
+        "Tools",
+        "Active"
+      ]
+    },
+    {
+      "id": "2037",
+      "icon": "2037_Potion_of_Giant_Strength.dds",
+      "name": "2037",
+      "description": "2037",
+      "gold": {
+        "base": 350,
+        "total": 350,
+        "sell": 140
+      },
+      "stacks": 3,
+      "consumed": true,
+      "usableInStore": true,
+      "stats": {
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Damage",
+        "Attack",
+        "Consumable",
+        "Tools"
+      ]
+    },
+    {
+      "id": "1036",
+      "icon": "1036_Long_Sword.dds",
+      "name": "1036",
+      "description": "1036",
+      "gold": {
+        "base": 360,
+        "total": 360,
+        "sell": 252
+      },
+      "into": [
+        "1053",
+        "3044",
+        "3144",
+        "3134",
+        "3209",
+        "3035",
+        "3155",
+        "3004",
+        "3077",
+        "3123",
+        "3141",
+        "3122",
+        "3154",
+        "3008"
+      ],
+      "stats": {
+        "FlatPhysicalDamageMod": 10.0
+      },
+      "tags": [
+        "Damage",
+        "Attack"
+      ]
+    },
+    {
+      "id": "3301",
+      "icon": "3301_BabyPhilo.dds",
+      "name": "3301",
+      "description": "3301",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 365,
+        "total": 365,
+        "sell": 146
+      },
+      "stats": {
+        "FlatMPRegenMod": 0.6
+      },
+      "tags": [
+        "HealthRegen",
+        "Defense",
+        "ManaRegen",
+        "Magic",
+        "GoldPer",
+        "Tools"
+      ],
+      "into": [
+        "3096"
+      ]
+    },
+    {
+      "id": "3302",
+      "icon": "3052_Reverb_Coil.dds",
+      "name": "3302",
+      "description": "3302",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 365,
+        "total": 365,
+        "sell": 146
+      },
+      "stats": {
+        "FlatHPPoolMod": 75.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Aura",
+        "GoldPer",
+        "Tools"
+      ],
+      "into": [
+        "3097"
+      ]
+    },
+    {
+      "id": "3303",
+      "icon": "3090_Thoughtbreaker.dds",
+      "name": "3303",
+      "description": "3303",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 365,
+        "total": 365,
+        "sell": 146
+      },
+      "stats": {
+        "FlatMPRegenMod": 0.4,
+        "FlatMagicDamageMod": 5.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "ManaRegen",
+        "GoldPer",
+        "Tools"
+      ],
+      "into": [
+        "3098"
+      ]
+    },
+    {
+      "id": "1027",
+      "icon": "1027_Sapphire_Sphere.dds",
+      "name": "1027",
+      "description": "1027",
+      "gold": {
+        "base": 400,
+        "total": 400,
+        "sell": 280
+      },
+      "into": [
+        "3057",
+        "3070",
+        "3073",
+        "3010",
+        "3024"
+      ],
+      "stats": {
+        "FlatMPPoolMod": 200.0
+      },
+      "tags": [
+        "Mana",
+        "Magic"
+      ]
+    },
+    {
+      "id": "1028",
+      "icon": "1028_RubyCrystal.dds",
+      "name": "1028",
+      "description": "1028",
+      "gold": {
+        "base": 400,
+        "total": 400,
+        "sell": 280
+      },
+      "into": [
+        "3067",
+        "3105",
+        "3044",
+        "3010",
+        "3136",
+        "3083",
+        "2049",
+        "2045",
+        "3084",
+        "3185",
+        "2051",
+        "3211",
+        "3056",
+        "3102",
+        "3071",
+        "3022"
+      ],
+      "stats": {
+        "FlatHPPoolMod": 150.0
+      },
+      "tags": [
+        "Health",
+        "Defense"
+      ]
+    },
+    {
+      "id": "1033",
+      "icon": "1033_Elementium_Threaded_Cloak.dds",
+      "name": "1033",
+      "description": "1033",
+      "gold": {
+        "base": 400,
+        "total": 400,
+        "sell": 280
+      },
+      "into": [
+        "3111",
+        "3028",
+        "3091",
+        "3155"
+      ],
+      "stats": {
+        "FlatSpellBlockMod": 20.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense"
+      ]
+    },
+    {
+      "id": "1042",
+      "icon": "1042_Dagger.dds",
+      "name": "1042",
+      "description": "1042",
+      "gold": {
+        "base": 400,
+        "total": 400,
+        "sell": 280
+      },
+      "into": [
+        "3006",
+        "3086",
+        "3101",
+        "3046",
+        "3131",
+        "3106",
+        "3154",
+        "3085",
+        "3091",
+        "3153"
+      ],
+      "stats": {
+        "PercentAttackSpeedMod": 0.12
+      },
+      "tags": [
+        "AttackSpeed",
+        "Attack"
+      ]
+    },
+    {
+      "id": "1051",
+      "icon": "1051_Brawlers_Gloves.dds",
+      "name": "1051",
+      "description": "1051",
+      "gold": {
+        "base": 400,
+        "total": 400,
+        "sell": 280
+      },
+      "into": [
+        "3086",
+        "3093",
+        "3122"
+      ],
+      "stats": {
+        "FlatCritChanceMod": 0.08
+      },
+      "tags": [
+        "CriticalStrike",
+        "Attack"
+      ]
+    },
+    {
+      "id": "1056",
+      "icon": "165_Harmony_Ring.dds",
+      "name": "1056",
+      "description": "1056",
+      "gold": {
+        "base": 400,
+        "total": 400,
+        "sell": 160
+      },
+      "stats": {
+        "FlatHPPoolMod": 60.0,
+        "FlatMPRegenMod": 0.6,
+        "FlatMagicDamageMod": 15.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "ManaRegen"
+      ]
+    },
+    {
+      "id": "1076",
+      "icon": "165_Harmony_Ring.dds",
+      "name": "1076",
+      "description": "1076",
+      "itemgroup": "DoransShowdown",
+      "gold": {
+        "base": 400,
+        "total": 400,
+        "sell": 160
+      },
+      "stats": {
+        "FlatHPPoolMod": 60.0,
+        "FlatMPRegenMod": 0.6,
+        "FlatMagicDamageMod": 15.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "ManaRegen"
+      ]
+    },
+    {
+      "id": "1052",
+      "icon": "1052_Amplifying_Scepter.dds",
+      "name": "1052",
+      "description": "1052",
+      "gold": {
+        "base": 435,
+        "total": 435,
+        "sell": 305
+      },
+      "into": [
+        "3145",
+        "3041",
+        "3108",
+        "3057",
+        "3136",
+        "3135",
+        "3116",
+        "3151",
+        "3113",
+        "3191",
+        "3090"
+      ],
+      "stats": {
+        "FlatMagicDamageMod": 20.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic"
+      ]
+    },
+    {
+      "id": "1054",
+      "icon": "033_Buckler.dds",
+      "name": "1054",
+      "description": "1054",
+      "gold": {
+        "base": 440,
+        "total": 440,
+        "sell": 176
+      },
+      "stats": {
+        "FlatHPPoolMod": 80.0,
+        "FlatHPRegenMod": 1.2
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "HealthRegen"
+      ]
+    },
+    {
+      "id": "1055",
+      "icon": "PetAttack.dds",
+      "name": "1055",
+      "description": "1055",
+      "gold": {
+        "base": 440,
+        "total": 440,
+        "sell": 176
+      },
+      "stats": {
+        "FlatHPPoolMod": 80.0,
+        "FlatPhysicalDamageMod": 8.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Damage",
+        "Attack",
+        "LifeSteal",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "1074",
+      "icon": "033_Buckler.dds",
+      "name": "1074",
+      "description": "1074",
+      "itemgroup": "DoransShowdown",
+      "gold": {
+        "base": 440,
+        "total": 440,
+        "sell": 176
+      },
+      "stats": {
+        "FlatHPPoolMod": 100.0,
+        "FlatHPRegenMod": 2.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "HealthRegen"
+      ]
+    },
+    {
+      "id": "1075",
+      "icon": "PetAttack.dds",
+      "name": "1075",
+      "description": "1075",
+      "itemgroup": "DoransShowdown",
+      "gold": {
+        "base": 440,
+        "total": 440,
+        "sell": 176
+      },
+      "stats": {
+        "FlatHPPoolMod": 80.0,
+        "FlatPhysicalDamageMod": 8.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Damage",
+        "Attack",
+        "LifeSteal",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3361",
+      "icon": "3361_YellowTrinketPlus.dds",
+      "name": "3361",
+      "description": "3361",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 475,
+        "total": 475,
+        "sell": 333
+      },
+      "requiredLevel": 9,
+      "from": [
+        "3340"
+      ],
+      "depth": 2,
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3362",
+      "icon": "3362_VisionYellowTrinket.dds",
+      "name": "3362",
+      "description": "3362",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 475,
+        "total": 475,
+        "sell": 333
+      },
+      "requiredLevel": 9,
+      "from": [
+        "3340"
+      ],
+      "depth": 2,
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3363",
+      "icon": "3363_OracleRedTrinket.dds",
+      "name": "3363",
+      "description": "3363",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 475,
+        "total": 475,
+        "sell": 333
+      },
+      "requiredLevel": 9,
+      "from": [
+        "3342"
+      ],
+      "depth": 2,
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "3364",
+      "icon": "3364_FarseerBlueTrinket.dds",
+      "name": "3364",
+      "description": "3364",
+      "itemgroup": "RelicBase",
+      "gold": {
+        "base": 475,
+        "total": 475,
+        "sell": 333
+      },
+      "requiredLevel": 9,
+      "from": [
+        "3341"
+      ],
+      "depth": 2,
+      "stats": {
+      },
+      "tags": [
+        "Active",
+        "Vision",
+        "Tools",
+        "Trinket"
+      ]
+    },
+    {
+      "id": "2040",
+      "icon": "2040_Ichor_of_Rage.dds",
+      "name": "2040",
+      "description": "2040",
+      "gold": {
+        "base": 500,
+        "total": 500,
+        "sell": 200
+      },
+      "stacks": 3,
+      "consumed": true,
+      "usableInStore": true,
+      "stats": {
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "AttackSpeed",
+        "Consumable",
+        "Tools"
+      ]
+    },
+    {
+      "id": "2048",
+      "icon": "2048_IchorofIllumination.dds",
+      "name": "2048",
+      "description": "2048",
+      "gold": {
+        "base": 500,
+        "total": 500,
+        "sell": 200
+      },
+      "stacks": 3,
+      "consumed": true,
+      "usableInStore": true,
+      "stats": {
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "ManaRegen",
+        "CooldownReduction",
+        "Consumable",
+        "Tools"
+      ]
+    },
+    {
+      "id": "1080",
+      "icon": "1080_SoulEater.dds",
+      "name": "1080",
+      "description": "1080",
+      "gold": {
+        "base": 40,
+        "total": 700,
+        "sell": 490
+      },
+      "into": [
+        "3206",
+        "3207",
+        "3209"
+      ],
+      "from": [
+        "1039",
+        "1004",
+        "1006"
+      ],
+      "depth": 2,
+      "stats": {
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3070",
+      "icon": "3070_Tear_of_the_Goddess.dds",
+      "name": "3070",
+      "description": "3070",
+      "gold": {
+        "base": 120,
+        "total": 700,
+        "sell": 490
+      },
+      "into": [
+        "3003",
+        "3004"
+      ],
+      "from": [
+        "1027",
+        "1004"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMPPoolMod": 250.0,
+        "FlatMPRegenMod": 1.2
+      },
+      "tags": [
+        "Mana",
+        "Magic",
+        "ManaRegen"
+      ]
+    },
+    {
+      "id": "3073",
+      "icon": "3073_Tear_of_the_Goddess_CS.dds",
+      "name": "3073",
+      "description": "3073",
+      "gold": {
+        "base": 120,
+        "total": 700,
+        "sell": 490
+      },
+      "into": [
+        "3007",
+        "3008"
+      ],
+      "from": [
+        "1027",
+        "1004"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMPPoolMod": 250.0,
+        "FlatMPRegenMod": 1.2
+      },
+      "tags": [
+        "Mana",
+        "Magic",
+        "ManaRegen"
+      ]
+    },
+    {
+      "id": "1031",
+      "icon": "1031_Chain_Vest.dds",
+      "name": "1031",
+      "description": "1031",
+      "gold": {
+        "base": 720,
+        "total": 720,
+        "sell": 504
+      },
+      "into": [
+        "3026",
+        "3068",
+        "3005",
+        "3075",
+        "3082"
+      ],
+      "stats": {
+        "FlatArmorMod": 40.0
+      },
+      "tags": [
+        "Armor",
+        "Defense"
+      ]
+    },
+    {
+      "id": "1057",
+      "icon": "161_Elementium_Woven_Mantle.dds",
+      "name": "1057",
+      "description": "1057",
+      "gold": {
+        "base": 720,
+        "total": 720,
+        "sell": 504
+      },
+      "into": [
+        "3001",
+        "3140",
+        "3180",
+        "3112",
+        "3211",
+        "3105",
+        "3170",
+        "3026"
+      ],
+      "stats": {
+        "FlatSpellBlockMod": 40.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense"
+      ]
+    },
+    {
+      "id": "1018",
+      "icon": "1018_Cloak_of_Agility.dds",
+      "name": "1018",
+      "description": "1018",
+      "gold": {
+        "base": 730,
+        "total": 730,
+        "sell": 511
+      },
+      "into": [
+        "3046",
+        "3031",
+        "3104"
+      ],
+      "stats": {
+        "FlatCritChanceMod": 0.15
+      },
+      "tags": [
+        "CriticalStrike",
+        "Attack"
+      ]
+    },
+    {
+      "id": "3106",
+      "icon": "139_Strygwyrs_Reaver.dds",
+      "name": "3106",
+      "description": "3106",
+      "gold": {
+        "base": 50,
+        "total": 750,
+        "sell": 525
+      },
+      "into": [
+        "3154"
+      ],
+      "from": [
+        "1042",
+        "1039"
+      ],
+      "depth": 2,
+      "stats": {
+        "PercentAttackSpeedMod": 0.15
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "AttackSpeed",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3114",
+      "icon": "3114_Forbidden_Idol.dds",
+      "name": "3114",
+      "description": "3114",
+      "gold": {
+        "base": 390,
+        "total": 750,
+        "sell": 525
+      },
+      "from": [
+        "1004",
+        "1004"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMPRegenMod": 1.6
+      },
+      "tags": [
+        "ManaRegen",
+        "Magic",
+        "CooldownReduction"
+      ],
+      "into": [
+        "3069",
+        "3165"
+      ]
+    },
+    {
+      "id": "1053",
+      "icon": "1053_Vampiric_Scepter.dds",
+      "name": "1053",
+      "description": "1053",
+      "gold": {
+        "base": 440,
+        "total": 800,
+        "sell": 560
+      },
+      "into": [
+        "3050",
+        "3144",
+        "3181",
+        "3072",
+        "3074",
+        "3159"
+      ],
+      "from": [
+        "1036"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatPhysicalDamageMod": 10.0
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "LifeSteal"
+      ]
+    },
+    {
+      "id": "2049",
+      "icon": "2049_Sightstone.dds",
+      "name": "2049",
+      "description": "2049",
+      "gold": {
+        "base": 400,
+        "total": 800,
+        "sell": 320
+      },
+      "into": [
+        "2045"
+      ],
+      "from": [
+        "1028"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 150.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Vision",
+        "Tools",
+        "Active"
+      ]
+    },
+    {
+      "id": "3093",
+      "icon": "3093_Avarice_Blade.dds",
+      "name": "3093",
+      "description": "3093",
+      "gold": {
+        "base": 400,
+        "total": 800,
+        "sell": 320
+      },
+      "into": [
+        "3142",
+        "3005",
+        "3087",
+        "3123"
+      ],
+      "from": [
+        "1051"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatCritChanceMod": 0.1
+      },
+      "tags": [
+        "CriticalStrike",
+        "Attack",
+        "GoldPer",
+        "Tools"
+      ]
+    },
+    {
+      "id": "3117",
+      "icon": "3004_Assault_Treads.dds",
+      "name": "3117",
+      "description": "3117",
+      "gold": {
+        "base": 475,
+        "total": 800,
+        "sell": 560
+      },
+      "into": [
+        "3274",
+        "3273",
+        "3272",
+        "3271",
+        "3270"
+      ],
+      "from": [
+        "1001"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMovementSpeedMod": 105.0
+      },
+      "tags": [
+        "Boots",
+        "Movement"
+      ]
+    },
+    {
+      "id": "3108",
+      "icon": "113_Tome_of_Minor_Necro_Compulsion.dds",
+      "name": "3108",
+      "description": "3108",
+      "gold": {
+        "base": 385,
+        "total": 820,
+        "sell": 574
+      },
+      "into": [
+        "3115",
+        "3174",
+        "3165",
+        "3128",
+        "3060",
+        "3188",
+        "3206",
+        "3290",
+        "3092",
+        "3023",
+        "3152"
+      ],
+      "from": [
+        "1052"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMagicDamageMod": 30.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "CooldownReduction"
+      ]
+    },
+    {
+      "id": "3067",
+      "icon": "3067_Kindlegem.dds",
+      "name": "3067",
+      "description": "3067",
+      "gold": {
+        "base": 450,
+        "total": 850,
+        "sell": 595
+      },
+      "into": [
+        "3065",
+        "3187",
+        "3050",
+        "3207",
+        "3401",
+        "3190"
+      ],
+      "from": [
+        "1028"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 200.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "CooldownReduction",
+        "Magic"
+      ]
+    },
+    {
+      "id": "1026",
+      "icon": "1026_Blasting_Band.dds",
+      "name": "1026",
+      "description": "1026",
+      "gold": {
+        "base": 860,
+        "total": 860,
+        "sell": 602
+      },
+      "into": [
+        "3001",
+        "3135",
+        "3027",
+        "3029",
+        "3089",
+        "3116",
+        "3124",
+        "3188",
+        "3090",
+        "3056",
+        "3060",
+        "3003",
+        "3007"
+      ],
+      "stats": {
+        "FlatMagicDamageMod": 40.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic"
+      ]
+    },
+    {
+      "id": "3096",
+      "icon": "3062_Soul_Pendant.dds",
+      "name": "3096",
+      "description": "3096",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 500,
+        "total": 865,
+        "sell": 346
+      },
+      "from": [
+        "3301"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPRegenMod": 1.0,
+        "FlatMPRegenMod": 1.4
+      },
+      "tags": [
+        "HealthRegen",
+        "Defense",
+        "ManaRegen",
+        "Magic",
+        "GoldPer",
+        "Tools",
+        "Active"
+      ],
+      "into": [
+        "3069"
+      ]
+    },
+    {
+      "id": "3097",
+      "icon": "3097_ReaperEmblem.dds",
+      "name": "3097",
+      "description": "3097",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 500,
+        "total": 865,
+        "sell": 346
+      },
+      "from": [
+        "3302"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 175.0,
+        "FlatHPRegenMod": 1.6
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "HealthRegen",
+        "Aura",
+        "GoldPer",
+        "Tools"
+      ],
+      "into": [
+        "3401"
+      ]
+    },
+    {
+      "id": "3098",
+      "icon": "3098_KagesPick.dds",
+      "name": "3098",
+      "description": "3098",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 500,
+        "total": 865,
+        "sell": 346
+      },
+      "from": [
+        "3303"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMPRegenMod": 1.0,
+        "FlatMagicDamageMod": 10.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "ManaRegen",
+        "GoldPer",
+        "Tools",
+        "Active"
+      ],
+      "into": [
+        "3092"
+      ]
+    },
+    {
+      "id": "1037",
+      "icon": "1037_Broadsword.dds",
+      "name": "1037",
+      "description": "1037",
+      "gold": {
+        "base": 875,
+        "total": 875,
+        "sell": 613
+      },
+      "into": [
+        "3035",
+        "3124",
+        "3031",
+        "3156",
+        "3077",
+        "3104",
+        "3184",
+        "3181",
+        "3172",
+        "3022"
+      ],
+      "stats": {
+        "FlatPhysicalDamageMod": 25.0
+      },
+      "tags": [
+        "Damage",
+        "Attack"
+      ]
+    },
+    {
+      "id": "3028",
+      "icon": "3028_Harmony_Ring.dds",
+      "name": "3028",
+      "description": "3028",
+      "gold": {
+        "base": 120,
+        "total": 880,
+        "sell": 616
+      },
+      "into": [
+        "3174",
+        "3222"
+      ],
+      "from": [
+        "1004",
+        "1033",
+        "1004"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMPRegenMod": 1.4,
+        "FlatSpellBlockMod": 25.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "ManaRegen",
+        "Magic"
+      ]
+    },
+    {
+      "id": "1043",
+      "icon": "1043_Steel_Stiletto.dds",
+      "name": "1043",
+      "description": "1043",
+      "gold": {
+        "base": 900,
+        "total": 900,
+        "sell": 630
+      },
+      "into": [
+        "3091",
+        "3131",
+        "3085"
+      ],
+      "stats": {
+        "PercentAttackSpeedMod": 0.3
+      },
+      "tags": [
+        "AttackSpeed",
+        "Attack"
+      ]
+    },
+    {
+      "id": "3006",
+      "icon": "3006_Berserkers_Greaves.dds",
+      "name": "3006",
+      "description": "3006",
+      "gold": {
+        "base": 175,
+        "total": 900,
+        "sell": 630
+      },
+      "into": [
+        "3254",
+        "3253",
+        "3252",
+        "3251",
+        "3250"
+      ],
+      "from": [
+        "1001",
+        "1042"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0,
+        "PercentAttackSpeedMod": 0.2
+      },
+      "tags": [
+        "AttackSpeed",
+        "Attack",
+        "Boots",
+        "Movement"
+      ]
+    },
+    {
+      "id": "1062",
+      "icon": "1062_ProspectorsBlade.dds",
+      "name": "1062",
+      "description": "1062",
+      "gold": {
+        "base": 950,
+        "total": 950,
+        "sell": 380
+      },
+      "stats": {
+        "FlatPhysicalDamageMod": 16.0,
+        "PercentAttackSpeedMod": 0.15
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Damage",
+        "Attack",
+        "AttackSpeed"
+      ]
+    },
+    {
+      "id": "1063",
+      "icon": "1063_ProspectorsRing2.dds",
+      "name": "1063",
+      "description": "1063",
+      "gold": {
+        "base": 950,
+        "total": 950,
+        "sell": 380
+      },
+      "stats": {
+        "FlatMPRegenMod": 1.2,
+        "FlatMagicDamageMod": 35.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "ManaRegen"
+      ]
+    },
+    {
+      "id": "3024",
+      "icon": "3024_Glacial_Shroud.dds",
+      "name": "3024",
+      "description": "3024",
+      "gold": {
+        "base": 250,
+        "total": 950,
+        "sell": 665
+      },
+      "into": [
+        "3110",
+        "3025",
+        "3187"
+      ],
+      "from": [
+        "1027",
+        "1029"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMPPoolMod": 250.0,
+        "FlatArmorMod": 20.0
+      },
+      "tags": [
+        "Armor",
+        "Defense",
+        "Mana",
+        "Magic",
+        "CooldownReduction"
+      ]
+    },
+    {
+      "id": "3113",
+      "icon": "3113_Aether_Wisp.dds",
+      "name": "3113",
+      "description": "3113",
+      "gold": {
+        "base": 515,
+        "total": 950,
+        "sell": 665
+      },
+      "into": [
+        "3023",
+        "3290",
+        "3100"
+      ],
+      "from": [
+        "1052"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMagicDamageMod": 30.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "NonbootsMovement",
+        "Movement"
+      ]
+    },
+    {
+      "id": "1011",
+      "icon": "1011_Mighty_Waistband_of_the_Reaver.dds",
+      "name": "1011",
+      "description": "1011",
+      "gold": {
+        "base": 1000,
+        "total": 1000,
+        "sell": 700
+      },
+      "into": [
+        "3083",
+        "3022",
+        "3068",
+        "3116",
+        "3084",
+        "3143"
+      ],
+      "stats": {
+        "FlatHPPoolMod": 380.0
+      },
+      "tags": [
+        "Health",
+        "Defense"
+      ]
+    },
+    {
+      "id": "3009",
+      "icon": "3009_Boots_of_Teleportation.dds",
+      "name": "3009",
+      "description": "3009",
+      "gold": {
+        "base": 675,
+        "total": 1000,
+        "sell": 700
+      },
+      "into": [
+        "3284",
+        "3283",
+        "3282",
+        "3281",
+        "3280"
+      ],
+      "from": [
+        "1001"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMovementSpeedMod": 60.0
+      },
+      "tags": [
+        "Boots",
+        "Movement"
+      ]
+    },
+    {
+      "id": "3047",
+      "icon": "3047_Phase_Striders.dds",
+      "name": "3047",
+      "description": "3047",
+      "gold": {
+        "base": 375,
+        "total": 1000,
+        "sell": 700
+      },
+      "into": [
+        "3264",
+        "3263",
+        "3262",
+        "3261",
+        "3260"
+      ],
+      "from": [
+        "1001",
+        "1029"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatArmorMod": 25.0,
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+        "Armor",
+        "Defense",
+        "Boots",
+        "Movement"
+      ]
+    },
+    {
+      "id": "3082",
+      "icon": "3082_Wardens_Mail.dds",
+      "name": "3082",
+      "description": "3082",
+      "gold": {
+        "base": 280,
+        "total": 1000,
+        "sell": 700
+      },
+      "into": [
+        "3110",
+        "3143"
+      ],
+      "from": [
+        "1031"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatArmorMod": 50.0
+      },
+      "tags": [
+        "Armor",
+        "Defense",
+        "Slow"
+      ]
+    },
+    {
+      "id": "3158",
+      "icon": "3158_Ionian_Boots_of_Lucidity.dds",
+      "name": "3158",
+      "description": "3158",
+      "gold": {
+        "base": 675,
+        "total": 1000,
+        "sell": 700
+      },
+      "into": [
+        "3279",
+        "3278",
+        "3277",
+        "3276",
+        "3275"
+      ],
+      "from": [
+        "1001"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+        "CooldownReduction",
+        "Magic",
+        "Boots",
+        "Movement"
+      ]
+    },
+    {
+      "id": "3196",
+      "icon": "3196_AugmentQ.dds",
+      "name": "3196",
+      "description": "3196",
+      "gold": {
+        "base": 1000,
+        "total": 1000,
+        "sell": 700
+      },
+      "canBeSold": false,
+      "requiredChampion": "Viktor",
+      "from": [
+        "3200"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 220.0,
+        "FlatHPRegenMod": 1.2
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "HealthRegen"
+      ]
+    },
+    {
+      "id": "3197",
+      "icon": "3197_AugmentW.dds",
+      "name": "3197",
+      "description": "3197",
+      "gold": {
+        "base": 1000,
+        "total": 1000,
+        "sell": 700
+      },
+      "canBeSold": false,
+      "requiredChampion": "Viktor",
+      "from": [
+        "3200"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMPPoolMod": 200.0,
+        "FlatMPRegenMod": 1.0
+      },
+      "tags": [
+        "Mana",
+        "Magic",
+        "ManaRegen",
+        "CooldownReduction"
+      ]
+    },
+    {
+      "id": "3198",
+      "icon": "3198_AugmentE.dds",
+      "name": "3198",
+      "description": "3198",
+      "gold": {
+        "base": 1000,
+        "total": 1000,
+        "sell": 700
+      },
+      "canBeSold": false,
+      "requiredChampion": "Viktor",
+      "from": [
+        "3200"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMagicDamageMod": 45.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic"
+      ]
+    },
+    {
+      "id": "2051",
+      "icon": "2051_Guardians_Horn.dds",
+      "name": "2051",
+      "description": "2051",
+      "gold": {
+        "base": 445,
+        "total": 1025,
+        "sell": 718
+      },
+      "from": [
+        "1006",
+        "1028"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 180.0,
+        "FlatHPRegenMod": 2.4
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellBlock",
+        "HealthRegen",
+        "Armor",
+        "Active",
+        "NonbootsMovement",
+        "Movement"
+      ]
+    },
+    {
+      "id": "3020",
+      "icon": "3020_Flamewalkers.dds",
+      "name": "3020",
+      "description": "3020",
+      "gold": {
+        "base": 775,
+        "total": 1100,
+        "sell": 770
+      },
+      "into": [
+        "3259",
+        "3258",
+        "3257",
+        "3256",
+        "3255"
+      ],
+      "from": [
+        "1001"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+        "Boots",
+        "Movement",
+        "MagicPenetration"
+      ]
+    },
+    {
+      "id": "3191",
+      "icon": "3191_Seekers_Armguard.dds",
+      "name": "3191",
+      "description": "3191",
+      "gold": {
+        "base": 125,
+        "total": 1160,
+        "sell": 812
+      },
+      "from": [
+        "1029",
+        "1052",
+        "1029"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatArmorMod": 30.0,
+        "FlatMagicDamageMod": 20.0
+      },
+      "tags": [
+        "Armor",
+        "Defense",
+        "SpellDamage",
+        "Magic"
+      ],
+      "into": [
+        "3170",
+        "3157",
+        "3090"
+      ]
+    },
+    {
+      "id": "3086",
+      "icon": "3058_Sheen_and_Phage.dds",
+      "name": "3086",
+      "description": "3086",
+      "gold": {
+        "base": 375,
+        "total": 1175,
+        "sell": 823
+      },
+      "into": [
+        "3046",
+        "3078",
+        "3087"
+      ],
+      "from": [
+        "1051",
+        "1042"
+      ],
+      "depth": 2,
+      "stats": {
+        "PercentMovementSpeedMod": 0.05,
+        "PercentAttackSpeedMod": 0.18,
+        "FlatCritChanceMod": 0.1
+      },
+      "tags": [
+        "CriticalStrike",
+        "Attack",
+        "AttackSpeed",
+        "NonbootsMovement",
+        "Movement"
+      ]
+    },
+    {
+      "id": "3010",
+      "icon": "3010_Catalyst_the_Protector.dds",
+      "name": "3010",
+      "description": "3010",
+      "gold": {
+        "base": 400,
+        "total": 1200,
+        "sell": 840
+      },
+      "into": [
+        "3027",
+        "3029",
+        "3180"
+      ],
+      "from": [
+        "1028",
+        "1027"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 200.0,
+        "FlatMPPoolMod": 300.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "HealthRegen",
+        "Mana",
+        "Magic",
+        "ManaRegen"
+      ]
+    },
+    {
+      "id": "3057",
+      "icon": "3057_Sheen.dds",
+      "name": "3057",
+      "description": "3057",
+      "gold": {
+        "base": 365,
+        "total": 1200,
+        "sell": 840
+      },
+      "into": [
+        "3078",
+        "3100",
+        "3025"
+      ],
+      "from": [
+        "1027",
+        "1052"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMPPoolMod": 200.0,
+        "FlatMagicDamageMod": 25.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "Mana"
+      ]
+    },
+    {
+      "id": "3111",
+      "icon": "3008_Boots_Of_Swiftness.dds",
+      "name": "3111",
+      "description": "3111",
+      "gold": {
+        "base": 475,
+        "total": 1200,
+        "sell": 840
+      },
+      "into": [
+        "3269",
+        "3268",
+        "3267",
+        "3266",
+        "3265"
+      ],
+      "from": [
+        "1001",
+        "1033"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0,
+        "FlatSpellBlockMod": 25.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "Boots",
+        "Movement",
+        "Tenacity"
+      ]
+    },
+    {
+      "id": "3122",
+      "icon": "3122_Wicked_Hatchet.dds",
+      "name": "3122",
+      "description": "3122",
+      "gold": {
+        "base": 440,
+        "total": 1200,
+        "sell": 840
+      },
+      "into": [
+        "3104"
+      ],
+      "from": [
+        "1051",
+        "1036"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatPhysicalDamageMod": 20.0,
+        "FlatCritChanceMod": 0.1
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "CriticalStrike",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3141",
+      "icon": "3034_Kenyus_Kukri.dds",
+      "name": "3141",
+      "description": "3141",
+      "gold": {
+        "base": 840,
+        "total": 1200,
+        "sell": 840
+      },
+      "from": [
+        "1036"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatPhysicalDamageMod": 10.0
+      },
+      "tags": [
+        "Damage",
+        "Attack"
+      ]
+    },
+    {
+      "id": "3145",
+      "icon": "3145_Hextech_Revolver.dds",
+      "name": "3145",
+      "description": "3145",
+      "gold": {
+        "base": 330,
+        "total": 1200,
+        "sell": 840
+      },
+      "into": [
+        "3146",
+        "3152"
+      ],
+      "from": [
+        "1052",
+        "1052"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMagicDamageMod": 40.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "SpellVamp"
+      ]
+    },
+    {
+      "id": "3041",
+      "icon": "3041_Mejais_Soulstealer.dds",
+      "name": "3041",
+      "description": "3041",
+      "gold": {
+        "base": 800,
+        "total": 1235,
+        "sell": 865
+      },
+      "from": [
+        "1052"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMagicDamageMod": 20.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic"
+      ]
+    },
+    {
+      "id": "3101",
+      "icon": "059_Sheen.dds",
+      "name": "3101",
+      "description": "3101",
+      "gold": {
+        "base": 450,
+        "total": 1250,
+        "sell": 875
+      },
+      "into": [
+        "3115",
+        "3172",
+        "3137"
+      ],
+      "from": [
+        "1042",
+        "1042"
+      ],
+      "depth": 2,
+      "stats": {
+        "PercentAttackSpeedMod": 0.4
+      },
+      "tags": [
+        "AttackSpeed",
+        "Attack",
+        "CooldownReduction",
+        "Magic"
+      ]
+    },
+    {
+      "id": "3270",
+      "icon": "3004_Assault_Treads_A.dds",
+      "name": "EnchantmentHomeguard",
+      "description": "EnchantmentHomeguard",
+      "itemgroup": "BootsHomeguard",
+      "gold": {
+        "base": 475,
+        "total": 1275,
+        "sell": 893
+      },
+      "hideFromAll": true,
+      "from": [
+        "3117"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 105.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3272",
+      "icon": "3004_Assault_Treads_C.dds",
+      "name": "EnchantmentDeathmarch",
+      "description": "EnchantmentDeathmarch",
+      "itemgroup": "BootsFuror",
+      "gold": {
+        "base": 475,
+        "total": 1275,
+        "sell": 893
+      },
+      "hideFromAll": true,
+      "from": [
+        "3117"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 105.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3273",
+      "icon": "3004_Assault_Treads_D.dds",
+      "name": "EnchantmentDistortion",
+      "description": "EnchantmentDistortion",
+      "itemgroup": "BootsDistortion",
+      "gold": {
+        "base": 475,
+        "total": 1275,
+        "sell": 893
+      },
+      "hideFromAll": true,
+      "from": [
+        "3117"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 105.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3274",
+      "icon": "3004_Assault_Treads_E.dds",
+      "name": "EnchantmentIronWill",
+      "description": "EnchantmentIronWill",
+      "itemgroup": "BootsAlacrity",
+      "gold": {
+        "base": 475,
+        "total": 1275,
+        "sell": 893
+      },
+      "hideFromAll": true,
+      "from": [
+        "3117"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 125.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3044",
+      "icon": "3044_Phage.dds",
+      "name": "3044",
+      "description": "3044",
+      "gold": {
+        "base": 565,
+        "total": 1325,
+        "sell": 927
+      },
+      "into": [
+        "3078",
+        "3184"
+      ],
+      "from": [
+        "1028",
+        "1036"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 200.0,
+        "FlatPhysicalDamageMod": 20.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Damage",
+        "Attack",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3134",
+      "icon": "037_Big_Stick.dds",
+      "name": "3134",
+      "description": "3134",
+      "gold": {
+        "base": 617,
+        "total": 1337,
+        "sell": 936
+      },
+      "stacks": 0,
+      "into": [
+        "3142",
+        "3071"
+      ],
+      "from": [
+        "1036",
+        "1036"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatPhysicalDamageMod": 25.0
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "CooldownReduction",
+        "Magic",
+        "ArmorPenetration"
+      ]
+    },
+    {
+      "id": "3155",
+      "icon": "3155_Hexdrinker.dds",
+      "name": "3155",
+      "description": "3155",
+      "gold": {
+        "base": 590,
+        "total": 1350,
+        "sell": 945
+      },
+      "stacks": 0,
+      "into": [
+        "3156"
+      ],
+      "from": [
+        "1036",
+        "1033"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatPhysicalDamageMod": 25.0,
+        "FlatSpellBlockMod": 25.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "Damage",
+        "Attack"
+      ]
+    },
+    {
+      "id": "3159",
+      "icon": "3159_Soulsight_Lantern.dds",
+      "name": "3159",
+      "description": "3159",
+      "gold": {
+        "base": 250,
+        "total": 1350,
+        "sell": 945
+      },
+      "from": [
+        "1029",
+        "1053"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatArmorMod": 20.0,
+        "FlatPhysicalDamageMod": 15.0
+      },
+      "tags": [
+        "Armor",
+        "Defense",
+        "Damage",
+        "Attack",
+        "LifeSteal",
+        "Active",
+        "OnHit",
+        "Stealth",
+        "Vision",
+        "Tools"
+      ],
+      "into": [
+        "3185"
+      ]
+    },
+    {
+      "id": "3250",
+      "icon": "3006_Berserkers_Greaves_A.dds",
+      "name": "EnchantmentHomeguard",
+      "description": "EnchantmentHomeguard",
+      "itemgroup": "BootsHomeguard",
+      "gold": {
+        "base": 475,
+        "total": 1375,
+        "sell": 962
+      },
+      "hideFromAll": true,
+      "from": [
+        "3006"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0,
+        "PercentAttackSpeedMod": 0.2
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3252",
+      "icon": "3006_Berserkers_Greaves_C.dds",
+      "name": "EnchantmentDeathmarch",
+      "description": "EnchantmentDeathmarch",
+      "itemgroup": "BootsFuror",
+      "gold": {
+        "base": 475,
+        "total": 1375,
+        "sell": 962
+      },
+      "hideFromAll": true,
+      "from": [
+        "3006"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0,
+        "PercentAttackSpeedMod": 0.2
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3253",
+      "icon": "3006_Berserkers_Greaves_D.dds",
+      "name": "EnchantmentDistortion",
+      "description": "EnchantmentDistortion",
+      "itemgroup": "BootsDistortion",
+      "gold": {
+        "base": 475,
+        "total": 1375,
+        "sell": 962
+      },
+      "hideFromAll": true,
+      "from": [
+        "3006"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0,
+        "PercentAttackSpeedMod": 0.2
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3254",
+      "icon": "3006_Berserkers_Greaves_E.dds",
+      "name": "EnchantmentIronWill",
+      "description": "EnchantmentIronWill",
+      "itemgroup": "BootsAlacrity",
+      "gold": {
+        "base": 475,
+        "total": 1375,
+        "sell": 962
+      },
+      "hideFromAll": true,
+      "from": [
+        "3006"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 65.0,
+        "PercentAttackSpeedMod": 0.2
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3144",
+      "icon": "3144_Bilgewater_Cutlass.dds",
+      "name": "3144",
+      "description": "3144",
+      "gold": {
+        "base": 240,
+        "total": 1400,
+        "sell": 980
+      },
+      "into": [
+        "3146",
+        "3153"
+      ],
+      "from": [
+        "1036",
+        "1053"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatPhysicalDamageMod": 25.0
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "LifeSteal",
+        "Slow",
+        "Active"
+      ]
+    },
+    {
+      "id": "3211",
+      "icon": "3211_SpectresCowl.dds",
+      "name": "3211",
+      "description": "3211",
+      "gold": {
+        "base": 280,
+        "total": 1400,
+        "sell": 980
+      },
+      "from": [
+        "1028",
+        "1057"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 200.0,
+        "FlatSpellBlockMod": 45.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellBlock",
+        "HealthRegen"
+      ],
+      "into": [
+        "3065",
+        "3102"
+      ]
+    },
+    {
+      "id": "3271",
+      "icon": "3004_Assault_Treads_B.dds",
+      "name": "EnchantmentCaptain",
+      "description": "EnchantmentCaptain",
+      "itemgroup": "BootsCaptain",
+      "gold": {
+        "base": 600,
+        "total": 1400,
+        "sell": 980
+      },
+      "hideFromAll": true,
+      "from": [
+        "3117"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 105.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3260",
+      "icon": "3047_Phase_Striders_A.dds",
+      "name": "EnchantmentHomeguard",
+      "description": "EnchantmentHomeguard",
+      "itemgroup": "BootsHomeguard",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3047"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatArmorMod": 25.0,
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3262",
+      "icon": "3047_Phase_Striders_C.dds",
+      "name": "EnchantmentDeathmarch",
+      "description": "EnchantmentDeathmarch",
+      "itemgroup": "BootsFuror",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3047"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatArmorMod": 25.0,
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3263",
+      "icon": "3047_Phase_Striders_D.dds",
+      "name": "EnchantmentDistortion",
+      "description": "EnchantmentDistortion",
+      "itemgroup": "BootsDistortion",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3047"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatArmorMod": 25.0,
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3264",
+      "icon": "3047_Phase_Striders_E.dds",
+      "name": "EnchantmentIronWill",
+      "description": "EnchantmentIronWill",
+      "itemgroup": "BootsAlacrity",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3047"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatArmorMod": 25.0,
+        "FlatMovementSpeedMod": 65.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3275",
+      "icon": "3158_Ionian_Boots_of_Lucidity_A.dds",
+      "name": "EnchantmentHomeguard",
+      "description": "EnchantmentHomeguard",
+      "itemgroup": "BootsHomeguard",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3158"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3277",
+      "icon": "3158_Ionian_Boots_of_Lucidity_C.dds",
+      "name": "EnchantmentDeathmarch",
+      "description": "EnchantmentDeathmarch",
+      "itemgroup": "BootsFuror",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3158"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3278",
+      "icon": "3158_Ionian_Boots_of_Lucidity_D.dds",
+      "name": "EnchantmentDistortion",
+      "description": "EnchantmentDistortion",
+      "itemgroup": "BootsDistortion",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3158"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3279",
+      "icon": "3158_Ionian_Boots_of_Lucidity_E.dds",
+      "name": "EnchantmentIronWill",
+      "description": "EnchantmentIronWill",
+      "itemgroup": "BootsAlacrity",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3158"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 65.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3280",
+      "icon": "3009_Boots_of_Teleportation_A.dds",
+      "name": "EnchantmentHomeguard",
+      "description": "EnchantmentHomeguard",
+      "itemgroup": "BootsHomeguard",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3009"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 60.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3282",
+      "icon": "3009_Boots_of_Teleportation_C.dds",
+      "name": "EnchantmentDeathmarch",
+      "description": "EnchantmentDeathmarch",
+      "itemgroup": "BootsFuror",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3009"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 60.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3283",
+      "icon": "3009_Boots_of_Teleportation_D.dds",
+      "name": "EnchantmentDistortion",
+      "description": "EnchantmentDistortion",
+      "itemgroup": "BootsDistortion",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3009"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 60.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3284",
+      "icon": "3009_Boots_of_Teleportation_E.dds",
+      "name": "EnchantmentIronWill",
+      "description": "EnchantmentIronWill",
+      "itemgroup": "BootsAlacrity",
+      "gold": {
+        "base": 475,
+        "total": 1475,
+        "sell": 1033
+      },
+      "hideFromAll": true,
+      "from": [
+        "3009"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 80.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3136",
+      "icon": "3136_Haunting_Guise.dds",
+      "name": "3136",
+      "description": "3136",
+      "gold": {
+        "base": 650,
+        "total": 1485,
+        "sell": 1040
+      },
+      "stacks": 0,
+      "into": [
+        "3151"
+      ],
+      "from": [
+        "1028",
+        "1052"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 200.0,
+        "FlatMagicDamageMod": 25.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "MagicPenetration"
+      ]
+    },
+    {
+      "id": "3251",
+      "icon": "3006_Berserkers_Greaves_B.dds",
+      "name": "EnchantmentCaptain",
+      "description": "EnchantmentCaptain",
+      "itemgroup": "BootsCaptain",
+      "gold": {
+        "base": 600,
+        "total": 1500,
+        "sell": 1050
+      },
+      "hideFromAll": true,
+      "from": [
+        "3006"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0,
+        "PercentAttackSpeedMod": 0.2
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "1038",
+      "icon": "1038_BF_Sword.dds",
+      "name": "1038",
+      "description": "1038",
+      "gold": {
+        "base": 1550,
+        "total": 1550,
+        "sell": 1085
+      },
+      "into": [
+        "3031",
+        "3072",
+        "3139"
+      ],
+      "stats": {
+        "FlatPhysicalDamageMod": 45.0
+      },
+      "tags": [
+        "Damage",
+        "Attack"
+      ]
+    },
+    {
+      "id": "3140",
+      "icon": "1008_Sash_of_Valor.dds",
+      "name": "3140",
+      "description": "3140",
+      "gold": {
+        "base": 830,
+        "total": 1550,
+        "sell": 1085
+      },
+      "into": [
+        "3139",
+        "3137"
+      ],
+      "from": [
+        "1057"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatSpellBlockMod": 45.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "Active"
+      ]
+    },
+    {
+      "id": "3255",
+      "icon": "3020_Flamewalkers_A.dds",
+      "name": "EnchantmentHomeguard",
+      "description": "EnchantmentHomeguard",
+      "itemgroup": "BootsHomeguard",
+      "gold": {
+        "base": 475,
+        "total": 1575,
+        "sell": 1103
+      },
+      "hideFromAll": true,
+      "from": [
+        "3020"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3257",
+      "icon": "3020_Flamewalkers_C.dds",
+      "name": "EnchantmentDeathmarch",
+      "description": "EnchantmentDeathmarch",
+      "itemgroup": "BootsFuror",
+      "gold": {
+        "base": 475,
+        "total": 1575,
+        "sell": 1103
+      },
+      "hideFromAll": true,
+      "from": [
+        "3020"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3258",
+      "icon": "3020_Flamewalkers_D.dds",
+      "name": "EnchantmentDistortion",
+      "description": "EnchantmentDistortion",
+      "itemgroup": "BootsDistortion",
+      "gold": {
+        "base": 475,
+        "total": 1575,
+        "sell": 1103
+      },
+      "hideFromAll": true,
+      "from": [
+        "3020"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3259",
+      "icon": "3020_Flamewalkers_E.dds",
+      "name": "EnchantmentIronWill",
+      "description": "EnchantmentIronWill",
+      "itemgroup": "BootsAlacrity",
+      "gold": {
+        "base": 475,
+        "total": 1575,
+        "sell": 1103
+      },
+      "hideFromAll": true,
+      "from": [
+        "3020"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 65.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "1058",
+      "icon": "1058_Needlessly_Large_Wand.dds",
+      "name": "1058",
+      "description": "1058",
+      "gold": {
+        "base": 1600,
+        "total": 1600,
+        "sell": 1120
+      },
+      "into": [
+        "3089",
+        "3157",
+        "3128"
+      ],
+      "stats": {
+        "FlatMagicDamageMod": 80.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic"
+      ]
+    },
+    {
+      "id": "2045",
+      "icon": "2049_Ruby_Ward.DDS",
+      "name": "2045",
+      "description": "2045",
+      "gold": {
+        "base": 400,
+        "total": 1600,
+        "sell": 640
+      },
+      "from": [
+        "2049",
+        "1028"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 400.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Vision",
+        "Tools",
+        "Active"
+      ]
+    },
+    {
+      "id": "3222",
+      "icon": "3222_Mikaels_Crucible.dds",
+      "name": "3222",
+      "description": "3222",
+      "gold": {
+        "base": 720,
+        "total": 1600,
+        "sell": 1120
+      },
+      "from": [
+        "3028"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMPRegenMod": 2.4,
+        "FlatSpellBlockMod": 40.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "ManaRegen",
+        "Magic",
+        "Active"
+      ]
+    },
+    {
+      "id": "3261",
+      "icon": "3047_Phase_Striders_B.dds",
+      "name": "EnchantmentCaptain",
+      "description": "EnchantmentCaptain",
+      "itemgroup": "BootsCaptain",
+      "gold": {
+        "base": 600,
+        "total": 1600,
+        "sell": 1120
+      },
+      "hideFromAll": true,
+      "from": [
+        "3047"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatArmorMod": 25.0,
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3276",
+      "icon": "3158_Ionian_Boots_of_Lucidity_B.dds",
+      "name": "EnchantmentCaptain",
+      "description": "EnchantmentCaptain",
+      "itemgroup": "BootsCaptain",
+      "gold": {
+        "base": 600,
+        "total": 1600,
+        "sell": 1120
+      },
+      "hideFromAll": true,
+      "from": [
+        "3158"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3281",
+      "icon": "3009_Boots_of_Teleportation_B.dds",
+      "name": "EnchantmentCaptain",
+      "description": "EnchantmentCaptain",
+      "itemgroup": "BootsCaptain",
+      "gold": {
+        "base": 600,
+        "total": 1600,
+        "sell": 1120
+      },
+      "hideFromAll": true,
+      "from": [
+        "3009"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 60.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3160",
+      "icon": "3160_Feral_Flare.dds",
+      "name": "3160",
+      "description": "3160",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 1650,
+        "total": 1650,
+        "sell": 1155
+      },
+      "inStore": false,
+      "specialRecipe": "3154",
+      "depth": 4,
+      "stats": {
+        "FlatPhysicalDamageMod": 12.0,
+        "PercentAttackSpeedMod": 0.3
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "AttackSpeed",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3265",
+      "icon": "3008_Boots_Of_Swiftness_A.dds",
+      "name": "EnchantmentHomeguard",
+      "description": "EnchantmentHomeguard",
+      "itemgroup": "BootsHomeguard",
+      "gold": {
+        "base": 475,
+        "total": 1675,
+        "sell": 1173
+      },
+      "hideFromAll": true,
+      "from": [
+        "3111"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0,
+        "FlatSpellBlockMod": 25.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3267",
+      "icon": "3008_Boots_Of_Swiftness_C.dds",
+      "name": "EnchantmentDeathmarch",
+      "description": "EnchantmentDeathmarch",
+      "itemgroup": "BootsFuror",
+      "gold": {
+        "base": 475,
+        "total": 1675,
+        "sell": 1173
+      },
+      "hideFromAll": true,
+      "from": [
+        "3111"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0,
+        "FlatSpellBlockMod": 25.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3268",
+      "icon": "3008_Boots_Of_Swiftness_D.dds",
+      "name": "EnchantmentDistortion",
+      "description": "EnchantmentDistortion",
+      "itemgroup": "BootsDistortion",
+      "gold": {
+        "base": 475,
+        "total": 1675,
+        "sell": 1173
+      },
+      "hideFromAll": true,
+      "from": [
+        "3111"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0,
+        "FlatSpellBlockMod": 25.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3269",
+      "icon": "3008_Boots_Of_Swiftness_E.dds",
+      "name": "EnchantmentIronWill",
+      "description": "EnchantmentIronWill",
+      "itemgroup": "BootsAlacrity",
+      "gold": {
+        "base": 475,
+        "total": 1675,
+        "sell": 1173
+      },
+      "hideFromAll": true,
+      "from": [
+        "3111"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 65.0,
+        "FlatSpellBlockMod": 25.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3256",
+      "icon": "3020_Flamewalkers_B.dds",
+      "name": "EnchantmentCaptain",
+      "description": "EnchantmentCaptain",
+      "itemgroup": "BootsCaptain",
+      "gold": {
+        "base": 600,
+        "total": 1700,
+        "sell": 1190
+      },
+      "hideFromAll": true,
+      "from": [
+        "3020"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3154",
+      "icon": "3154_WrigglesLantern.dds",
+      "name": "3154",
+      "description": "3154",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 290,
+        "total": 1800,
+        "sell": 720
+      },
+      "into": [
+        "3160"
+      ],
+      "from": [
+        "3106",
+        "1036",
+        "1042"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatPhysicalDamageMod": 12.0,
+        "PercentAttackSpeedMod": 0.3
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "AttackSpeed",
+        "Active",
+        "OnHit",
+        "Vision",
+        "Tools",
+        "GoldPer"
+      ]
+    },
+    {
+      "id": "3266",
+      "icon": "3008_Boots_Of_Swiftness_B.dds",
+      "name": "EnchantmentCaptain",
+      "description": "EnchantmentCaptain",
+      "itemgroup": "BootsCaptain",
+      "gold": {
+        "base": 600,
+        "total": 1800,
+        "sell": 1260
+      },
+      "hideFromAll": true,
+      "from": [
+        "3111"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMovementSpeedMod": 45.0,
+        "FlatSpellBlockMod": 25.0
+      },
+      "tags": [
+
+      ]
+    },
+    {
+      "id": "3077",
+      "icon": "3077_Tiamat.dds",
+      "name": "3077",
+      "description": "3077",
+      "gold": {
+        "base": 305,
+        "total": 1900,
+        "sell": 1330
+      },
+      "into": [
+        "3074"
+      ],
+      "from": [
+        "1037",
+        "1036",
+        "1006",
+        "1006"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPRegenMod": 3.0,
+        "FlatPhysicalDamageMod": 40.0
+      },
+      "tags": [
+        "HealthRegen",
+        "Defense",
+        "Damage",
+        "Attack",
+        "Active",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3105",
+      "icon": "3105_AegisOfTheLegion.dds",
+      "name": "3105",
+      "description": "3105",
+      "gold": {
+        "base": 600,
+        "total": 1900,
+        "sell": 1330
+      },
+      "into": [
+        "3190"
+      ],
+      "from": [
+        "1028",
+        "1057",
+        "1006"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 200.0,
+        "FlatSpellBlockMod": 20.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellBlock",
+        "HealthRegen",
+        "Aura"
+      ]
+    },
+    {
+      "id": "3123",
+      "icon": "3069_Sword_of_Light_and_Shadow.dds",
+      "name": "3123",
+      "description": "3123",
+      "gold": {
+        "base": 740,
+        "total": 1900,
+        "sell": 1330
+      },
+      "from": [
+        "3093",
+        "1036"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatPhysicalDamageMod": 25.0,
+        "FlatCritChanceMod": 0.2
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "CriticalStrike",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3056",
+      "icon": "3056_Ohmwrecker.dds",
+      "name": "3056",
+      "description": "3056",
+      "gold": {
+        "base": 740,
+        "total": 2000,
+        "sell": 1400
+      },
+      "from": [
+        "1028",
+        "1026"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 350.0,
+        "FlatMagicDamageMod": 50.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "Active"
+      ]
+    },
+    {
+      "id": "3206",
+      "icon": "3206_SoulEaterWraith.dds",
+      "name": "3206",
+      "description": "3206",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 480,
+        "total": 2000,
+        "sell": 800
+      },
+      "from": [
+        "1080",
+        "3108"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMagicDamageMod": 50.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "CooldownReduction",
+        "GoldPer",
+        "Tools"
+      ]
+    },
+    {
+      "id": "3207",
+      "icon": "3207_SoulEaterGolem.dds",
+      "name": "3207",
+      "description": "3207",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 450,
+        "total": 2000,
+        "sell": 800
+      },
+      "from": [
+        "1080",
+        "3067"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 350.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "CooldownReduction",
+        "Magic",
+        "Tenacity",
+        "GoldPer",
+        "Tools"
+      ]
+    },
+    {
+      "id": "3209",
+      "icon": "3209_SoulEaterLizard.dds",
+      "name": "3209",
+      "description": "3209",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 580,
+        "total": 2000,
+        "sell": 800
+      },
+      "from": [
+        "1080",
+        "1036",
+        "1036"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatPhysicalDamageMod": 30.0
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "CooldownReduction",
+        "Magic",
+        "OnHit",
+        "GoldPer",
+        "Tools"
+      ]
+    },
+    {
+      "id": "3008",
+      "icon": "3008_Manamune_CS.dds",
+      "name": "3008",
+      "description": "3008",
+      "gold": {
+        "base": 1000,
+        "total": 2060,
+        "sell": 1442
+      },
+      "from": [
+        "3073",
+        "1036"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMPPoolMod": 250.0,
+        "FlatMPRegenMod": 1.42,
+        "FlatPhysicalDamageMod": 20.0
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "Mana",
+        "Magic",
+        "ManaRegen",
+        "OnHit"
+      ],
+      "into": [
+        "3043"
+      ]
+    },
+    {
+      "id": "3112",
+      "icon": "3112_Orb_of_Winter.dds",
+      "name": "3112",
+      "description": "3112",
+      "gold": {
+        "base": 1000,
+        "total": 2080,
+        "sell": 1456
+      },
+      "from": [
+        "1006",
+        "1006",
+        "1057"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPRegenMod": 4.0,
+        "FlatSpellBlockMod": 70.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "HealthRegen"
+      ]
+    },
+    {
+      "id": "3004",
+      "icon": "3004_Manamune.dds",
+      "name": "3004",
+      "description": "3004",
+      "gold": {
+        "base": 1040,
+        "total": 2100,
+        "sell": 1470
+      },
+      "from": [
+        "3070",
+        "1036"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMPPoolMod": 250.0,
+        "FlatMPRegenMod": 1.42,
+        "FlatPhysicalDamageMod": 20.0
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "Mana",
+        "Magic",
+        "ManaRegen",
+        "OnHit"
+      ],
+      "into": [
+        "3042"
+      ]
+    },
+    {
+      "id": "3042",
+      "icon": "3042_Muramana.dds",
+      "name": "3042",
+      "description": "3042",
+      "gold": {
+        "base": 2100,
+        "total": 2100,
+        "sell": 1470
+      },
+      "inStore": false,
+      "specialRecipe": "3004",
+      "depth": 4,
+      "stats": {
+        "FlatMPPoolMod": 1000.0,
+        "FlatMPRegenMod": 1.42,
+        "FlatPhysicalDamageMod": 20.0
+      },
+      "tags": [
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3043",
+      "icon": "3042_Muramana.dds",
+      "name": "3043",
+      "description": "3043",
+      "gold": {
+        "base": 2100,
+        "total": 2100,
+        "sell": 1470
+      },
+      "inStore": false,
+      "specialRecipe": "3008",
+      "depth": 4,
+      "stats": {
+        "FlatMPPoolMod": 1000.0,
+        "FlatMPRegenMod": 1.42,
+        "FlatPhysicalDamageMod": 20.0
+      },
+      "tags": [
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3187",
+      "icon": "3187_HextechSweeper.DDS",
+      "name": "3187",
+      "description": "3187",
+      "gold": {
+        "base": 330,
+        "total": 2130,
+        "sell": 1491
+      },
+      "from": [
+        "3024",
+        "3067"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 225.0,
+        "FlatMPPoolMod": 250.0,
+        "FlatArmorMod": 25.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Armor",
+        "Mana",
+        "Magic",
+        "CooldownReduction",
+        "Active",
+        "Stealth",
+        "Vision",
+        "Tools"
+      ]
+    },
+    {
+      "id": "3131",
+      "icon": "3084_Widowmaker.dds",
+      "name": "3131",
+      "description": "3131",
+      "gold": {
+        "base": 850,
+        "total": 2150,
+        "sell": 1505
+      },
+      "from": [
+        "1043",
+        "1042"
+      ],
+      "depth": 2,
+      "stats": {
+      },
+      "tags": [
+        "CriticalStrike",
+        "Attack",
+        "AttackSpeed",
+        "Active"
+      ]
+    },
+    {
+      "id": "3069",
+      "icon": "3069_Shurelyas_Firecrest.dds",
+      "name": "3069",
+      "description": "3069",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 585,
+        "total": 2200,
+        "sell": 880
+      },
+      "from": [
+        "3096",
+        "3114"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPRegenMod": 2.0,
+        "FlatMPRegenMod": 3.0
+      },
+      "tags": [
+        "HealthRegen",
+        "Defense",
+        "ManaRegen",
+        "Magic",
+        "CooldownReduction",
+        "NonbootsMovement",
+        "Movement",
+        "Active",
+        "GoldPer",
+        "Tools"
+      ]
+    },
+    {
+      "id": "3075",
+      "icon": "3075_Thornmail.dds",
+      "name": "3075",
+      "description": "3075",
+      "gold": {
+        "base": 1180,
+        "total": 2200,
+        "sell": 1540
+      },
+      "from": [
+        "1029",
+        "1031"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatArmorMod": 100.0
+      },
+      "tags": [
+        "Armor",
+        "Defense"
+      ]
+    },
+    {
+      "id": "3092",
+      "icon": "3092_Kages_Last_Breath.dds",
+      "name": "3092",
+      "description": "3092",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 515,
+        "total": 2200,
+        "sell": 880
+      },
+      "from": [
+        "3098",
+        "3108"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMPRegenMod": 2.0,
+        "FlatMagicDamageMod": 50.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "ManaRegen",
+        "CooldownReduction",
+        "Slow",
+        "GoldPer",
+        "Tools",
+        "Active"
+      ]
+    },
+    {
+      "id": "3165",
+      "icon": "3165_Morellonomicon.dds",
+      "name": "3165",
+      "description": "3165",
+      "gold": {
+        "base": 630,
+        "total": 2200,
+        "sell": 1540
+      },
+      "from": [
+        "3108",
+        "3114"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMPRegenMod": 2.4,
+        "FlatMagicDamageMod": 75.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "ManaRegen",
+        "CooldownReduction"
+      ]
+    },
+    {
+      "id": "3185",
+      "icon": "3185_Lightbringer.dds",
+      "name": "3185",
+      "description": "3185",
+      "gold": {
+        "base": 450,
+        "total": 2200,
+        "sell": 1540
+      },
+      "from": [
+        "3159",
+        "1028"
+      ],
+      "depth": 4,
+      "stats": {
+        "FlatHPPoolMod": 200.0,
+        "FlatArmorMod": 25.0,
+        "FlatPhysicalDamageMod": 20.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Armor",
+        "Damage",
+        "Attack",
+        "LifeSteal",
+        "OnHit",
+        "Stealth",
+        "Active",
+        "Vision",
+        "Tools"
+      ]
+    },
+    {
+      "id": "3401",
+      "icon": "3401_MartyrsShroud.dds",
+      "name": "3401",
+      "description": "3401",
+      "itemgroup": "GoldBase",
+      "gold": {
+        "base": 485,
+        "total": 2200,
+        "sell": 880
+      },
+      "from": [
+        "3097",
+        "3067"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 500.0,
+        "FlatHPRegenMod": 4.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "HealthRegen",
+        "CooldownReduction",
+        "Magic",
+        "GoldPer",
+        "Tools"
+      ]
+    },
+    {
+      "id": "3181",
+      "icon": "3181_SanguineBlade.dds",
+      "name": "3181",
+      "description": "3181",
+      "gold": {
+        "base": 600,
+        "total": 2275,
+        "sell": 1593
+      },
+      "from": [
+        "1037",
+        "1053"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatPhysicalDamageMod": 40.0
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "LifeSteal"
+      ]
+    },
+    {
+      "id": "3135",
+      "icon": "073_Zettas_Mana-Stick.dds",
+      "name": "3135",
+      "description": "3135",
+      "gold": {
+        "base": 1000,
+        "total": 2295,
+        "sell": 1607
+      },
+      "from": [
+        "1026",
+        "1052"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMagicDamageMod": 70.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "MagicPenetration"
+      ]
+    },
+    {
+      "id": "3005",
+      "icon": "3005_Atmas_Impaler.dds",
+      "name": "3005",
+      "description": "3005",
+      "gold": {
+        "base": 780,
+        "total": 2300,
+        "sell": 1610
+      },
+      "from": [
+        "1031",
+        "3093"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatArmorMod": 45.0,
+        "FlatCritChanceMod": 0.15
+      },
+      "tags": [
+        "Armor",
+        "Defense",
+        "Damage",
+        "Attack",
+        "CriticalStrike"
+      ]
+    },
+    {
+      "id": "3035",
+      "icon": "3035_Last_Whisper.dds",
+      "name": "3035",
+      "description": "3035",
+      "gold": {
+        "base": 1065,
+        "total": 2300,
+        "sell": 1610
+      },
+      "from": [
+        "1037",
+        "1036"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatPhysicalDamageMod": 40.0
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "ArmorPenetration"
+      ]
+    },
+    {
+      "id": "3023",
+      "icon": "3023_Wraith_Collar.dds",
+      "name": "3023",
+      "description": "3023",
+      "gold": {
+        "base": 630,
+        "total": 2400,
+        "sell": 1680
+      },
+      "from": [
+        "3108",
+        "3113"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMagicDamageMod": 80.0,
+        "PercentMovementSpeedMod": 0.06
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "CooldownReduction",
+        "NonbootsMovement",
+        "Movement",
+        "Slow",
+        "Active"
+      ]
+    },
+    {
+      "id": "3060",
+      "icon": "3060_Banner_of_Command.dds",
+      "name": "3060",
+      "description": "3060",
+      "gold": {
+        "base": 720,
+        "total": 2400,
+        "sell": 1680
+      },
+      "from": [
+        "3108",
+        "1026"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMagicDamageMod": 80.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "CooldownReduction",
+        "Aura",
+        "Active"
+      ]
+    },
+    {
+      "id": "3085",
+      "icon": "3085_Runaans_Hurricane.dds",
+      "name": "3085",
+      "description": "3085",
+      "gold": {
+        "base": 700,
+        "total": 2400,
+        "sell": 1680
+      },
+      "from": [
+        "1042",
+        "1043",
+        "1042"
+      ],
+      "depth": 2,
+      "stats": {
+        "PercentAttackSpeedMod": 0.7
+      },
+      "tags": [
+        "AttackSpeed",
+        "Attack",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3091",
+      "icon": "3091_Wits_End.dds",
+      "name": "3091",
+      "description": "3091",
+      "gold": {
+        "base": 700,
+        "total": 2400,
+        "sell": 1680
+      },
+      "from": [
+        "1043",
+        "1033",
+        "1042"
+      ],
+      "depth": 2,
+      "stats": {
+        "PercentAttackSpeedMod": 0.42,
+        "FlatSpellBlockMod": 25.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "Damage",
+        "Attack",
+        "AttackSpeed",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3290",
+      "icon": "3290_Wraith_Collar_CS.dds",
+      "name": "3290",
+      "description": "3290",
+      "gold": {
+        "base": 630,
+        "total": 2400,
+        "sell": 1680
+      },
+      "from": [
+        "3108",
+        "3113"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMagicDamageMod": 80.0,
+        "PercentMovementSpeedMod": 0.06
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "NonbootsMovement",
+        "Movement",
+        "CooldownReduction",
+        "Slow",
+        "Active"
+      ]
+    },
+    {
+      "id": "3050",
+      "icon": "3050_Rallying_Banner.dds",
+      "name": "3050",
+      "description": "3050",
+      "gold": {
+        "base": 800,
+        "total": 2450,
+        "sell": 1715
+      },
+      "from": [
+        "3067",
+        "1053"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 250.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Damage",
+        "Attack",
+        "LifeSteal",
+        "CooldownReduction",
+        "Magic",
+        "Aura"
+      ]
+    },
+    {
+      "id": "3084",
+      "icon": "3084_Overlords_Bloodmail.dds",
+      "name": "3084",
+      "description": "3084",
+      "gold": {
+        "base": 1055,
+        "total": 2455,
+        "sell": 1719
+      },
+      "from": [
+        "1011",
+        "1028"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 850.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "HealthRegen"
+      ]
+    },
+    {
+      "id": "3087",
+      "icon": "3087_Statikk_Shiv.dds",
+      "name": "3087",
+      "description": "3087",
+      "gold": {
+        "base": 525,
+        "total": 2500,
+        "sell": 1750
+      },
+      "from": [
+        "3086",
+        "3093"
+      ],
+      "depth": 3,
+      "stats": {
+        "PercentMovementSpeedMod": 0.06,
+        "PercentAttackSpeedMod": 0.4,
+        "FlatCritChanceMod": 0.2
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "CriticalStrike",
+        "AttackSpeed",
+        "NonbootsMovement",
+        "Movement",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3152",
+      "icon": "2008_Tome_of_Combat_Mastery.dds",
+      "name": "3152",
+      "description": "3152",
+      "gold": {
+        "base": 480,
+        "total": 2500,
+        "sell": 1750
+      },
+      "from": [
+        "3145",
+        "3108"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMagicDamageMod": 80.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "CooldownReduction",
+        "SpellVamp"
+      ]
+    },
+    {
+      "id": "3180",
+      "icon": "3180_OdynsVeil.dds",
+      "name": "3180",
+      "description": "3180",
+      "gold": {
+        "base": 600,
+        "total": 2520,
+        "sell": 1764
+      },
+      "from": [
+        "1057",
+        "3010"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 350.0,
+        "FlatMPPoolMod": 350.0,
+        "FlatSpellBlockMod": 50.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellBlock",
+        "Mana",
+        "Magic",
+        "Active"
+      ]
+    },
+    {
+      "id": "3001",
+      "icon": "3001_Abyssal_Scepter.dds",
+      "name": "3001",
+      "description": "3001",
+      "gold": {
+        "base": 980,
+        "total": 2560,
+        "sell": 1792
+      },
+      "from": [
+        "1026",
+        "1057"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMagicDamageMod": 70.0,
+        "FlatSpellBlockMod": 45.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "Aura"
+      ]
+    },
+    {
+      "id": "3110",
+      "icon": "122_Frozen_Heart.dds",
+      "name": "3110",
+      "description": "3110",
+      "gold": {
+        "base": 650,
+        "total": 2600,
+        "sell": 1820
+      },
+      "from": [
+        "3082",
+        "3024"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMPPoolMod": 400.0,
+        "FlatArmorMod": 100.0
+      },
+      "tags": [
+        "Armor",
+        "Defense",
+        "Mana",
+        "Magic",
+        "CooldownReduction",
+        "Aura"
+      ]
+    },
+    {
+      "id": "3124",
+      "icon": "3064_Spike_the_Ripper.dds",
+      "name": "3124",
+      "description": "3124",
+      "gold": {
+        "base": 865,
+        "total": 2600,
+        "sell": 1820
+      },
+      "from": [
+        "1026",
+        "1037"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatPhysicalDamageMod": 30.0,
+        "FlatMagicDamageMod": 40.0
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "AttackSpeed",
+        "LifeSteal",
+        "SpellDamage",
+        "Magic",
+        "SpellVamp",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3170",
+      "icon": "3170_MoonflairSpellblade.dds",
+      "name": "3170",
+      "description": "3170",
+      "gold": {
+        "base": 720,
+        "total": 2600,
+        "sell": 1820
+      },
+      "from": [
+        "3191",
+        "1057"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatArmorMod": 50.0,
+        "FlatMagicDamageMod": 50.0,
+        "FlatSpellBlockMod": 50.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "Armor",
+        "SpellDamage",
+        "Magic",
+        "Tenacity"
+      ]
+    },
+    {
+      "id": "3174",
+      "icon": "3174_AthenesUnholyGrail.dds",
+      "name": "3174",
+      "description": "3174",
+      "gold": {
+        "base": 900,
+        "total": 2600,
+        "sell": 1820
+      },
+      "from": [
+        "3108",
+        "3028"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMPRegenMod": 3.0,
+        "FlatMagicDamageMod": 60.0,
+        "FlatSpellBlockMod": 40.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "ManaRegen",
+        "CooldownReduction"
+      ]
+    },
+    {
+      "id": "3068",
+      "icon": "3068_SunfireCape.dds",
+      "name": "3068",
+      "description": "3068",
+      "gold": {
+        "base": 930,
+        "total": 2650,
+        "sell": 1855
+      },
+      "from": [
+        "1031",
+        "1011"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 450.0,
+        "FlatArmorMod": 45.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Armor"
+      ]
+    },
+    {
+      "id": "3188",
+      "icon": "3188_Blackfire_Torch.dds",
+      "name": "3188",
+      "description": "3188",
+      "gold": {
+        "base": 970,
+        "total": 2650,
+        "sell": 1855
+      },
+      "from": [
+        "1026",
+        "3108"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMagicDamageMod": 80.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "CooldownReduction",
+        "Active"
+      ]
+    },
+    {
+      "id": "3003",
+      "icon": "3003_ArchangelStaff.dds",
+      "name": "3003",
+      "description": "3003",
+      "gold": {
+        "base": 1140,
+        "total": 2700,
+        "sell": 1890
+      },
+      "from": [
+        "3070",
+        "1026"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMPPoolMod": 250.0,
+        "FlatMPRegenMod": 2.0,
+        "FlatMagicDamageMod": 60.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "Mana",
+        "ManaRegen"
+      ],
+      "into": [
+        "3040"
+      ]
+    },
+    {
+      "id": "3007",
+      "icon": "3003_ArchangelStaff.dds",
+      "name": "3007",
+      "description": "3007",
+      "gold": {
+        "base": 1140,
+        "total": 2700,
+        "sell": 1890
+      },
+      "from": [
+        "3073",
+        "1026"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMPPoolMod": 250.0,
+        "FlatMPRegenMod": 2.0,
+        "FlatMagicDamageMod": 60.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "Mana",
+        "ManaRegen"
+      ],
+      "into": [
+        "3048"
+      ]
+    },
+    {
+      "id": "3040",
+      "icon": "3040_Seraphs_Embrace.dds",
+      "name": "3040",
+      "description": "3040",
+      "gold": {
+        "base": 2700,
+        "total": 2700,
+        "sell": 1890
+      },
+      "inStore": false,
+      "specialRecipe": "3003",
+      "depth": 4,
+      "stats": {
+        "FlatMPPoolMod": 1000.0,
+        "FlatMPRegenMod": 2.0,
+        "FlatMagicDamageMod": 60.0
+      },
+      "tags": [
+        "Active"
+      ]
+    },
+    {
+      "id": "3048",
+      "icon": "3040_Seraphs_Embrace.dds",
+      "name": "3048",
+      "description": "3048",
+      "gold": {
+        "base": 2700,
+        "total": 2700,
+        "sell": 1890
+      },
+      "inStore": false,
+      "specialRecipe": "3007",
+      "depth": 4,
+      "stats": {
+        "FlatMPPoolMod": 1000.0,
+        "FlatMPRegenMod": 2.0,
+        "FlatMagicDamageMod": 60.0
+      },
+      "tags": [
+        "Active"
+      ]
+    },
+    {
+      "id": "3142",
+      "icon": "3142_YomuuGhostblade.dds",
+      "name": "3142",
+      "description": "3142",
+      "gold": {
+        "base": 563,
+        "total": 2700,
+        "sell": 1890
+      },
+      "from": [
+        "3093",
+        "3134"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatPhysicalDamageMod": 30.0,
+        "FlatCritChanceMod": 0.15
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "CriticalStrike",
+        "AttackSpeed",
+        "CooldownReduction",
+        "Magic",
+        "NonbootsMovement",
+        "Movement",
+        "Active",
+        "ArmorPenetration"
+      ]
+    },
+    {
+      "id": "3184",
+      "icon": "3184_Entropy.dds",
+      "name": "3184",
+      "description": "3184",
+      "gold": {
+        "base": 500,
+        "total": 2700,
+        "sell": 1890
+      },
+      "from": [
+        "3044",
+        "1037"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 275.0,
+        "FlatPhysicalDamageMod": 55.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Damage",
+        "Attack",
+        "Slow",
+        "Active"
+      ]
+    },
+    {
+      "id": "3026",
+      "icon": "3026_Guardian_Angel.dds",
+      "name": "3026",
+      "description": "3026",
+      "gold": {
+        "base": 1310,
+        "total": 2750,
+        "sell": 1100
+      },
+      "from": [
+        "1057",
+        "1031"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatArmorMod": 50.0,
+        "FlatSpellBlockMod": 40.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "Armor"
+      ]
+    },
+    {
+      "id": "3065",
+      "icon": "3065_Spirit_Visage.dds",
+      "name": "3065",
+      "description": "3065",
+      "gold": {
+        "base": 500,
+        "total": 2750,
+        "sell": 1925
+      },
+      "from": [
+        "3211",
+        "3067"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 400.0,
+        "FlatHPRegenMod": 4.0,
+        "FlatSpellBlockMod": 55.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellBlock",
+        "HealthRegen",
+        "CooldownReduction",
+        "Magic"
+      ]
+    },
+    {
+      "id": "3102",
+      "icon": "066_Sindoran_Shielding_Amulet.dds",
+      "name": "3102",
+      "description": "3102",
+      "gold": {
+        "base": 950,
+        "total": 2750,
+        "sell": 1925
+      },
+      "from": [
+        "3211",
+        "1028"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 450.0,
+        "FlatSpellBlockMod": 55.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellBlock",
+        "HealthRegen"
+      ]
+    },
+    {
+      "id": "3027",
+      "icon": "3027_Guinsoos_Rod_of_Oblivion.dds",
+      "name": "3027",
+      "description": "3027",
+      "gold": {
+        "base": 740,
+        "total": 2800,
+        "sell": 1960
+      },
+      "from": [
+        "3010",
+        "1026"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 450.0,
+        "FlatMPPoolMod": 450.0,
+        "FlatMagicDamageMod": 60.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "HealthRegen",
+        "SpellDamage",
+        "Magic",
+        "Mana",
+        "ManaRegen"
+      ]
+    },
+    {
+      "id": "3029",
+      "icon": "3029_Rod_Of_Ages_CS.dds",
+      "name": "3029",
+      "description": "3029",
+      "gold": {
+        "base": 740,
+        "total": 2800,
+        "sell": 1960
+      },
+      "from": [
+        "3010",
+        "1026"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 450.0,
+        "FlatMPPoolMod": 450.0,
+        "FlatMagicDamageMod": 60.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "HealthRegen",
+        "SpellDamage",
+        "Magic",
+        "Mana",
+        "ManaRegen"
+      ]
+    },
+    {
+      "id": "3046",
+      "icon": "3046_Phantom_Dancer.dds",
+      "name": "3046",
+      "description": "3046",
+      "gold": {
+        "base": 495,
+        "total": 2800,
+        "sell": 1960
+      },
+      "from": [
+        "1018",
+        "3086",
+        "1042"
+      ],
+      "depth": 3,
+      "stats": {
+        "PercentMovementSpeedMod": 0.05,
+        "PercentAttackSpeedMod": 0.5,
+        "FlatCritChanceMod": 0.3
+      },
+      "tags": [
+        "CriticalStrike",
+        "Attack",
+        "AttackSpeed",
+        "NonbootsMovement",
+        "Movement"
+      ]
+    },
+    {
+      "id": "3190",
+      "icon": "3190_Crest_of_the_Iron_Solari.dds",
+      "name": "3190",
+      "description": "3190",
+      "gold": {
+        "base": 50,
+        "total": 2800,
+        "sell": 1960
+      },
+      "from": [
+        "3105",
+        "3067"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 400.0,
+        "FlatSpellBlockMod": 20.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellBlock",
+        "HealthRegen",
+        "CooldownReduction",
+        "Magic",
+        "Active",
+        "Aura"
+      ]
+    },
+    {
+      "id": "3083",
+      "icon": "3083_Warmog_the_Living_Armor.dds",
+      "name": "3083",
+      "description": "3083",
+      "gold": {
+        "base": 1070,
+        "total": 2830,
+        "sell": 1981
+      },
+      "from": [
+        "1011",
+        "1028",
+        "1006",
+        "1006"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 1000.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "HealthRegen"
+      ]
+    },
+    {
+      "id": "3172",
+      "icon": "3172_Zephyr.dds",
+      "name": "3172",
+      "description": "3172",
+      "gold": {
+        "base": 725,
+        "total": 2850,
+        "sell": 1995
+      },
+      "from": [
+        "3101",
+        "1037"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatPhysicalDamageMod": 25.0,
+        "PercentMovementSpeedMod": 0.1,
+        "PercentAttackSpeedMod": 0.5
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "AttackSpeed",
+        "NonbootsMovement",
+        "Movement",
+        "CooldownReduction",
+        "Magic",
+        "Tenacity",
+        "Defense"
+      ]
+    },
+    {
+      "id": "3025",
+      "icon": "3025_Frozen_Fist.dds",
+      "name": "3025",
+      "description": "3025",
+      "gold": {
+        "base": 750,
+        "total": 2900,
+        "sell": 2030
+      },
+      "from": [
+        "3057",
+        "3024"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMPPoolMod": 500.0,
+        "FlatArmorMod": 60.0,
+        "FlatMagicDamageMod": 30.0
+      },
+      "tags": [
+        "Armor",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "Mana",
+        "CooldownReduction",
+        "Slow"
+      ]
+    },
+    {
+      "id": "3116",
+      "icon": "3116_Rylais_Sceptre.dds",
+      "name": "3116",
+      "description": "3116",
+      "gold": {
+        "base": 605,
+        "total": 2900,
+        "sell": 2030
+      },
+      "from": [
+        "1026",
+        "1052",
+        "1011"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 500.0,
+        "FlatMagicDamageMod": 80.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "Slow"
+      ]
+    },
+    {
+      "id": "3151",
+      "icon": "3151_Liandrys_Lament.dds",
+      "name": "3151",
+      "description": "3151",
+      "gold": {
+        "base": 980,
+        "total": 2900,
+        "sell": 2030
+      },
+      "stacks": 0,
+      "from": [
+        "3136",
+        "1052"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 300.0,
+        "FlatMagicDamageMod": 50.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "MagicPenetration"
+      ]
+    },
+    {
+      "id": "3115",
+      "icon": "3115_Nashors_Tooth.dds",
+      "name": "3115",
+      "description": "3115",
+      "gold": {
+        "base": 850,
+        "total": 2920,
+        "sell": 2044
+      },
+      "from": [
+        "3101",
+        "3108"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMagicDamageMod": 60.0,
+        "PercentAttackSpeedMod": 0.5
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "AttackSpeed",
+        "SpellDamage",
+        "Magic",
+        "CooldownReduction",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3071",
+      "icon": "3071_The_Black_Cleaver.dds",
+      "name": "3071",
+      "description": "3071",
+      "gold": {
+        "base": 1263,
+        "total": 3000,
+        "sell": 2100
+      },
+      "from": [
+        "3134",
+        "1028"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 200.0,
+        "FlatPhysicalDamageMod": 50.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Damage",
+        "Attack",
+        "CooldownReduction",
+        "Magic",
+        "ArmorPenetration",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3100",
+      "icon": "126_Zeal_and_Sheen.dds",
+      "name": "3100",
+      "description": "3100",
+      "gold": {
+        "base": 850,
+        "total": 3000,
+        "sell": 2100
+      },
+      "from": [
+        "3057",
+        "3113"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMPPoolMod": 250.0,
+        "FlatMagicDamageMod": 80.0,
+        "PercentMovementSpeedMod": 0.05
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "Mana",
+        "NonbootsMovement",
+        "Movement"
+      ]
+    },
+    {
+      "id": "3137",
+      "icon": "3137_Dervish_Blade.dds",
+      "name": "3137",
+      "description": "3137",
+      "gold": {
+        "base": 200,
+        "total": 3000,
+        "sell": 2100
+      },
+      "from": [
+        "3140",
+        "3101"
+      ],
+      "depth": 3,
+      "stats": {
+        "PercentAttackSpeedMod": 0.5,
+        "FlatSpellBlockMod": 45.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "AttackSpeed",
+        "Attack",
+        "NonbootsMovement",
+        "Movement",
+        "CooldownReduction",
+        "Magic",
+        "Active"
+      ]
+    },
+    {
+      "id": "3143",
+      "icon": "3143_Randuins_Omen.dds",
+      "name": "3143",
+      "description": "3143",
+      "gold": {
+        "base": 1000,
+        "total": 3000,
+        "sell": 2100
+      },
+      "from": [
+        "1011",
+        "3082"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 500.0,
+        "FlatArmorMod": 70.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Armor",
+        "Slow",
+        "Active"
+      ]
+    },
+    {
+      "id": "3128",
+      "icon": "3128_Deathfire_Grasp.dds",
+      "name": "3128",
+      "description": "3128",
+      "gold": {
+        "base": 680,
+        "total": 3100,
+        "sell": 2170
+      },
+      "from": [
+        "1058",
+        "3108"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatMagicDamageMod": 120.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic",
+        "CooldownReduction",
+        "Active"
+      ]
+    },
+    {
+      "id": "3072",
+      "icon": "3072_The_Bloodthirster.dds",
+      "name": "3072",
+      "description": "3072",
+      "gold": {
+        "base": 850,
+        "total": 3200,
+        "sell": 2240
+      },
+      "from": [
+        "1038",
+        "1053"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatPhysicalDamageMod": 70.0
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "LifeSteal"
+      ]
+    },
+    {
+      "id": "3153",
+      "icon": "3153_Blade_of_the_Ruined_King.dds",
+      "name": "3153",
+      "description": "3153",
+      "gold": {
+        "base": 1000,
+        "total": 3200,
+        "sell": 2240
+      },
+      "from": [
+        "1042",
+        "3144",
+        "1042"
+      ],
+      "depth": 4,
+      "stats": {
+        "FlatPhysicalDamageMod": 25.0,
+        "PercentAttackSpeedMod": 0.4
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "AttackSpeed",
+        "LifeSteal",
+        "NonbootsMovement",
+        "Movement",
+        "Active",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3156",
+      "icon": "3156_PhaseBlade.dds",
+      "name": "3156",
+      "description": "3156",
+      "gold": {
+        "base": 975,
+        "total": 3200,
+        "sell": 2240
+      },
+      "stacks": 0,
+      "from": [
+        "3155",
+        "1037"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatPhysicalDamageMod": 60.0,
+        "FlatSpellBlockMod": 40.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "Damage",
+        "Attack"
+      ]
+    },
+    {
+      "id": "3157",
+      "icon": "3157_Zhonyas_Hourglass.dds",
+      "name": "3157",
+      "description": "3157",
+      "gold": {
+        "base": 500,
+        "total": 3260,
+        "sell": 2282
+      },
+      "from": [
+        "3191",
+        "1058"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatArmorMod": 50.0,
+        "FlatMagicDamageMod": 120.0
+      },
+      "tags": [
+        "Armor",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "Active"
+      ]
+    },
+    {
+      "id": "3022",
+      "icon": "3022_Frozen_Mallet.dds",
+      "name": "3022",
+      "description": "3022",
+      "gold": {
+        "base": 1025,
+        "total": 3300,
+        "sell": 2310
+      },
+      "from": [
+        "1028",
+        "1011",
+        "1037"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatHPPoolMod": 700.0,
+        "FlatPhysicalDamageMod": 30.0
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Damage",
+        "Attack",
+        "Slow",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3074",
+      "icon": "3074_Ravenous_Hydra.dds",
+      "name": "3074",
+      "description": "3074",
+      "gold": {
+        "base": 600,
+        "total": 3300,
+        "sell": 2310
+      },
+      "from": [
+        "3077",
+        "1053"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPRegenMod": 3.0,
+        "FlatPhysicalDamageMod": 75.0
+      },
+      "tags": [
+        "HealthRegen",
+        "Defense",
+        "Damage",
+        "Attack",
+        "LifeSteal",
+        "Active",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3089",
+      "icon": "3089_Banksys_wizard_Hat.dds",
+      "name": "3089",
+      "description": "3089",
+      "gold": {
+        "base": 840,
+        "total": 3300,
+        "sell": 2310
+      },
+      "from": [
+        "1026",
+        "1058"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatMagicDamageMod": 120.0
+      },
+      "tags": [
+        "SpellDamage",
+        "Magic"
+      ]
+    },
+    {
+      "id": "3146",
+      "icon": "3146_Hextech_Gunblade.dds",
+      "name": "3146",
+      "description": "3146",
+      "gold": {
+        "base": 800,
+        "total": 3400,
+        "sell": 2380
+      },
+      "from": [
+        "3144",
+        "3145"
+      ],
+      "depth": 4,
+      "stats": {
+        "FlatPhysicalDamageMod": 45.0,
+        "FlatMagicDamageMod": 65.0
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "LifeSteal",
+        "SpellDamage",
+        "Magic",
+        "SpellVamp",
+        "Slow",
+        "Active"
+      ]
+    },
+    {
+      "id": "3090",
+      "icon": "3090_Wooglets_Witchcap.dds",
+      "name": "3090",
+      "description": "3090",
+      "gold": {
+        "base": 1045,
+        "total": 3500,
+        "sell": 2450
+      },
+      "from": [
+        "3191",
+        "1026",
+        "1052"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatArmorMod": 45.0,
+        "FlatMagicDamageMod": 100.0
+      },
+      "tags": [
+        "Armor",
+        "Defense",
+        "SpellDamage",
+        "Magic",
+        "Active"
+      ]
+    },
+    {
+      "id": "3139",
+      "icon": "3139_Mercurial_Scimitar.dds",
+      "name": "3139",
+      "description": "3139",
+      "gold": {
+        "base": 600,
+        "total": 3700,
+        "sell": 2590
+      },
+      "from": [
+        "3140",
+        "1038"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatPhysicalDamageMod": 60.0,
+        "FlatSpellBlockMod": 45.0
+      },
+      "tags": [
+        "SpellBlock",
+        "Defense",
+        "Damage",
+        "Attack",
+        "NonbootsMovement",
+        "Movement",
+        "Active"
+      ]
+    },
+    {
+      "id": "3078",
+      "icon": "3078_Trinity_Force.dds",
+      "name": "3078",
+      "description": "3078",
+      "gold": {
+        "base": 3,
+        "total": 3703,
+        "sell": 2592
+      },
+      "from": [
+        "3086",
+        "3057",
+        "3044"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatHPPoolMod": 250.0,
+        "FlatMPPoolMod": 200.0,
+        "FlatPhysicalDamageMod": 30.0,
+        "FlatMagicDamageMod": 30.0,
+        "PercentMovementSpeedMod": 0.08,
+        "PercentAttackSpeedMod": 0.3,
+        "FlatCritChanceMod": 0.1
+      },
+      "tags": [
+        "Health",
+        "Defense",
+        "Damage",
+        "Attack",
+        "AttackSpeed",
+        "SpellDamage",
+        "Magic",
+        "Mana",
+        "CriticalStrike",
+        "NonbootsMovement",
+        "Movement",
+        "OnHit"
+      ]
+    },
+    {
+      "id": "3031",
+      "icon": "3031_Infinity_Edge.dds",
+      "name": "3031",
+      "description": "3031",
+      "gold": {
+        "base": 645,
+        "total": 3800,
+        "sell": 2660
+      },
+      "from": [
+        "1038",
+        "1037",
+        "1018"
+      ],
+      "depth": 2,
+      "stats": {
+        "FlatPhysicalDamageMod": 70.0,
+        "FlatCritChanceMod": 0.25
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "CriticalStrike"
+      ]
+    },
+    {
+      "id": "3104",
+      "icon": "3104_Lord_Van_Damms_Pillager.dds",
+      "name": "3104",
+      "description": "3104",
+      "gold": {
+        "base": 995,
+        "total": 3800,
+        "sell": 2660
+      },
+      "from": [
+        "3122",
+        "1037",
+        "1018"
+      ],
+      "depth": 3,
+      "stats": {
+        "FlatPhysicalDamageMod": 70.0,
+        "FlatCritChanceMod": 0.25
+      },
+      "tags": [
+        "Damage",
+        "Attack",
+        "CriticalStrike"
+      ]
+    }
+  ],
+  "itemgroups": [
+    {
+      "groupid": "BootsAlacrity",
+      "maxGroupOwnable": 1,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "BootsCaptain",
+      "maxGroupOwnable": 1,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "BootsDistortion",
+      "maxGroupOwnable": 1,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "BootsFuror",
+      "maxGroupOwnable": 1,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "BootsHomeguard",
+      "maxGroupOwnable": 1,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "BootsNormal",
+      "maxGroupOwnable": 1,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "DoransShowdown",
+      "maxGroupOwnable": 2,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "GoldBase",
+      "maxGroupOwnable": 1,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "GreenWards",
+      "maxGroupOwnable": 3,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "HealthPotion",
+      "maxGroupOwnable": 5,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "ManaPotion",
+      "maxGroupOwnable": 5,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "PinkWards",
+      "maxGroupOwnable": 2,
+      "inventorySlotMin": -1,
+      "inventorySlotMax": -1
+    },
+    {
+      "groupid": "RelicBase",
+      "maxGroupOwnable": 1,
+      "inventorySlotMin": 6,
+      "inventorySlotMax": 6
+    }
+  ],
+  "categories": [
+    {
+      "header": "Tools",
+      "tags": [
+        "Consumable",
+        "GoldPer",
+        "Vision"
+      ]
+    },
+    {
+      "header": "Defense",
+      "tags": [
+        "Health",
+        "Armor",
+        "SpellBlock",
+        "HealthRegen",
+        "Tenacity"
+      ]
+    },
+    {
+      "header": "Attack",
+      "tags": [
+        "Damage",
+        "CriticalStrike",
+        "AttackSpeed",
+        "LifeSteal"
+      ]
+    },
+    {
+      "header": "Magic",
+      "tags": [
+        "SpellDamage",
+        "CooldownReduction",
+        "SpellVamp",
+        "Mana",
+        "ManaRegen"
+      ]
+    },
+    {
+      "header": "Movement",
+      "tags": [
+        "Boots",
+        "NonbootsMovement"
+      ]
+    }
+  ]
+}
